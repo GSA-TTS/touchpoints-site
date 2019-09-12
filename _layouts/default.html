@@ -1,0 +1,29 @@
+---
+---
+
+<!doctype html>
+<html lang="en">
+{% include head.html %}
+
+<body>
+
+  <div class="paper">
+
+    {% include gov-banner.html %}
+
+
+    <div class="grid-container grid-container-desktop-lg">
+      <div class="grid-row">
+        <div class="grid-col-12">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </div>
+
+  <script src="{{ "/assets/uswds/js/uswds.min.js" | relative_url }}"></script>
+</body>
+</html>
