@@ -167,7 +167,7 @@ $theme-font-type-lang:  false;
 $theme-font-type-mono:  'roboto-mono';
 
 // sans-serif
-$theme-font-type-sans:  'source-sans-pro';
+$theme-font-type-sans:  'public-sans';
 
 // serif
 $theme-font-type-serif: 'merriweather';
@@ -320,8 +320,8 @@ Or use `false` for unneeded weights.
 */
 
 $theme-font-weight-thin:          false;
-$theme-font-weight-light:         300;
-$theme-font-weight-normal:        400;
+$theme-font-weight-light:         200;
+$theme-font-weight-normal:        300;
 $theme-font-weight-medium:        false;
 $theme-font-weight-semibold:      false;
 $theme-font-weight-bold:          700;
@@ -392,7 +392,7 @@ none:    none
 
 // Body settings are the equivalent of setting the <body> element
 $theme-body-font-family:           'body';
-$theme-body-font-size:             'sm';
+$theme-body-font-size:             'md';
 $theme-body-line-height:           5;
 
 // If true, explicitly style the <body> element with the base styles
@@ -417,6 +417,6 @@ $theme-prose-font-family:          'body';
 
 // Lead text
 $theme-lead-font-family:           'heading';
-$theme-lead-font-size:             'lg';
+$theme-lead-font-size:             'xl';
 $theme-lead-line-height:           6;
 $theme-lead-measure:               6;

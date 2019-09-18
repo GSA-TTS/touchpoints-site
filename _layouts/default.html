@@ -1,29 +1,26 @@
----
----
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-<!doctype html>
-<html lang="en">
 {% include head.html %}
 
 <body>
-
   <div class="paper">
 
     {% include gov-banner.html %}
+    {% include header.html %}
 
+    {{ content }}
 
-    <div class="grid-container grid-container-desktop">
-      <div class="grid-row">
-        <div class="grid-col-12">
-          {{ content }}
-        </div>
-      </div>
-    </div>
-
-    {% include footer.html %}
+    {% include component-footer.html %}
+    {% include component-anchor.html name="digitalgov" %}
 
   </div>
 
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
   <script src="{{ "/assets/uswds/js/uswds.min.js" | relative_url }}"></script>
+  <script src="{{ "/assets/js/custom.js" | relative_url }}"></script>
 </body>
 </html>

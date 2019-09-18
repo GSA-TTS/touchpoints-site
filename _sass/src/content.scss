@@ -1,0 +1,11 @@
+.usa-prose{
+  section{
+    .lead{
+      @include u-font('sans', 'lg');
+      @include u-measure(2);
+    }
+    h1{
+      @include u-bg('red-40v');
+    }
+  }
+}
