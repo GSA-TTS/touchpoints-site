@@ -7,14 +7,14 @@ deck: "Easy, compliant customer feedback for federal agencies."
 
 
 
-<div class="grid-row">
+<div class="grid-row grid-gap-lg">
   <div class="tablet:grid-col">
     <h2>
       Continuously improve your customer experience.
     </h2>
   </div>
 </div>
-<div class="grid-row">
+<div class="grid-row grid-gap-lg">
   <div class="tablet:grid-col">
     <strong>
       No cost. Ready to deploy.
@@ -44,14 +44,14 @@ deck: "Easy, compliant customer feedback for federal agencies."
   </div>
 </div>
 
-<div class="grid-row">
+<div class="grid-row grid-gap-lg">
   <div class="tablet:grid-col">
     <h2>
       What Touchpoints offers
     </h2>
   </div>
 </div>
-<div class="grid-row">
+<div class="grid-row grid-gap-lg">
   <div class="tablet:grid-col">
     <strong>
       Software as a Service
@@ -78,14 +78,14 @@ deck: "Easy, compliant customer feedback for federal agencies."
   </div>
 </div>
 
-<div class="grid-row">
+<div class="grid-row grid-gap-lg">
   <div class="tablet:grid-col">
     <h2>
       We're here to help with Service Design Analytics.
     </h2>
   </div>
 </div>
-<div class="grid-row">
+<div class="grid-row grid-gap-lg">
   <div class="tablet:grid-col">
     We offer training on how to use Touchpoints, and the Feedback Program can provide guidance around Service Design Analytics and Business Process Modelling.
 
