@@ -14,7 +14,7 @@ deck: "Easy, compliant customer feedback for federal agencies."
 <div class="grid-row grid-gap-lg">
   <div class="tablet:grid-col">
     <strong>
-      No cost. Ready to deploy.
+      No fuss. Ready to deploy.
     </strong>
     <p>
       You don't have to be an expert or spend months on coordination. We’ve taken care of it using popular and easy-to-use tools so you can focus on what to do with feedback.
