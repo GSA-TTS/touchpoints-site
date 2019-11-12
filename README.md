@@ -1,29 +1,19 @@
 # Touchpoints Website
 
 This repository is for the website at https://touchpoints.digital.gov.
-
----
-
-[Touchpoints](https://touchpoints.app.cloud.gov)
-is a product of the Technology Transformation Services, and maintained by the Office of Products and Programs in the General Services Administration.
-
-* [Touchpoints application](https://touchpoints.app.cloud.gov)
-* [Touchpoints code repository](https://github.com/GSA/touchpoints/)
-* [Touchpoints wiki](https://github.com/GSA/touchpoints/wiki)
-
----
+This site contains information and support materials for the Touchpoints product.
 
 ## How this application is hosted
 
-- **Touchpoints site / touchpoints.digital.gov**<br/>A Federalist site with all documentation and support material about the Touchpoints app. This is where we’ll direct people who are interested in knowing more about using Touchpoints or how to sign up. It will also direct people to log-in to the Touchpoints app.
+This Touchpoints product website is hosted at [touchpoints.digital.gov](https://touchpoints.digital.gov).
+It is a [Federalist](https://federalist.18f.gov/) site hosted on cloud.gov.
 
-- **Touchpoints App / app.touchpoints.digital.gov**<br/>This a the RAILs application on Cloud.gov, and is the main source of the functionality.
+## Development
 
----
+#### How to install this site locally
 
-## How to install locally
-
-After cloning the repo, navigate to the correct folder and install USWDS, Jekyll, and any necessary dependencies using:
+After cloning the repo, navigate to the correct folder and install
+USWDS, Jekyll, and necessary dependencies using:
 
 ```
 npm start
