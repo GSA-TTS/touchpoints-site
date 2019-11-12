@@ -1,12 +1,15 @@
-# Touchpoints Site
-## A customer service tool for federal agencies that helps them improve the quality of service they deliver to their customers
+# Touchpoints Website
 
-Touchpoints is a product of the Technology Transformation Services, and maintained by the Office of Products and Programs in the General Services Administration.
+This repository is for the website at https://touchpoints.digital.gov.
 
+---
 
-- [Product documentation](https://github.com/GSA/touchpoints/tree/master/docs)
-- [How to use Touchpoints]( https://github.com/gsa/touchpoints/wiki)
+[Touchpoints](https://touchpoints.app.cloud.gov)
+is a product of the Technology Transformation Services, and maintained by the Office of Products and Programs in the General Services Administration.
 
+* [Touchpoints application](https://touchpoints.app.cloud.gov)
+* [Touchpoints code repository](https://github.com/GSA/touchpoints/)
+* [Touchpoints wiki](https://github.com/GSA/touchpoints/wiki)
 
 ---
 
@@ -21,18 +24,23 @@ Touchpoints is a product of the Technology Transformation Services, and maintain
 ## How to install locally
 
 After cloning the repo, navigate to the correct folder and install USWDS, Jekyll, and any necessary dependencies using:
+
 ```
 npm start
 ```
+
 Then, to run the site locally:
+
 ```
 npm run serve
 ```
+
 If all goes well, visit the site at http://localhost:4000.
 
 USWDS assets are in `assets/uswds/fonts` and `assets/uswds/img`.
 
 SASS files are kept in the `/_sass` directory. To watch for changes and recompile the styles, run:
+
 ```
 npm run watch
 ```
