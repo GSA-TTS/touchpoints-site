@@ -92,7 +92,7 @@ deck: "Easy, compliant customer feedback for federal agencies."
   <div class="grid-row grid-gap-lg">
     <div class="tablet:grid-col">
       <h2>
-        Ready to start improving Customer Experience?
+        Ready to improve Customer Experience?
       </h2>
     </div>
   </div>
