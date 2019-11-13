@@ -92,16 +92,20 @@ deck: "Easy, compliant customer feedback for federal agencies."
   <div class="grid-row grid-gap-lg">
     <div class="tablet:grid-col">
       <h2>
-        Ready to improve Customer Experience?
+        Federal agency ready to improve Customer Experience?
       </h2>
     </div>
   </div>
   <div class="grid-row grid-gap-lg">
     <div class="grid-col-6">
-      <a href="https://github.com/GSA/touchpoints/wiki/Touchpoints-Onboarding-Questions" class="usa-button usa-button--outline usa-button--big" style="width: 100%;" target="_blank" rel="noopener">Get started with Onboarding</a>
+      <a href="https://github.com/GSA/touchpoints/wiki/Touchpoints-Onboarding-Questions" class="usa-button usa-button--outline usa-button--big" style="width: 100%;" target="_blank" rel="noopener">
+        Begin Onboarding for the CX CAP Goal
+      </a>
     </div>
     <div class="grid-col-6">
-      <a href="https://touchpoints-demo.app.cloud.gov" class="usa-button usa-button--big" style="width: 100%;" target="_blank" rel="noopener">Try Touchpoints Demo</a>
+      <a href="https://touchpoints-demo.app.cloud.gov" class="usa-button usa-button--big" style="width: 100%;" target="_blank" rel="noopener">
+        Try Touchpoints Demo
+      </a>
     </div>
   </div>
 </div>
