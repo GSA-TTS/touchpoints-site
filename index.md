@@ -6,44 +6,41 @@ deck: "Easy, compliant customer feedback for federal agencies."
 
 <div class="grid-row grid-gap-lg">
   <div class="tablet:grid-col">
-    <h2>
-      Continuously improve your customer experience.
-    </h2>
-  </div>
-</div>
-<div class="grid-row grid-gap-lg">
-  <div class="tablet:grid-col">
+    <img class="org-img" src="/assets/img/done.svg" alt="">
+    <br>
     <strong>
-      No fuss. Ready to deploy.
+      Clear the PRA
     </strong>
     <p>
-      You don't have to be an expert or spend months on coordination.
-      Get started quickly with easy-to-use tools so you can focus on what to do with user feedback.
+      Worried about PRA compliance?
+      Now you don't have to! With touchpoints,
+      you can fast track OMB approval in as little as 10 days.
     </p>
   </div>
   <div class="tablet:grid-col">
+    <img class="org-img" src="/assets/img/no-documents.svg" alt="">
+    <br>
     <strong>
-      Focus on your customers
+      Get and Stay Organized
     </strong>
     <p>
-      Understand your user's experience and needs.
-      Spend more time improving public services.
-      Create a Touchpoint, select a Form, and you're on your way.
+      Customer experience managers,
+      you can keep track of surveys and feedback in one place.
     </p>
   </div>
   <div class="tablet:grid-col">
+    <img class="org-img" src="/assets/img/focus.svg" alt="">
+    <br>
     <strong>
-      Secure, compliant, scalable
+      Reinvest in Programs
     </strong>
     <p>
-      Built on an approved and certified infrastructure with services from
-      <a href="https://cloud.gov" target="_blank" rel="noopener">cloud.gov</a> and
-      <a href="https://login.gov" target="_blank" rel="noopener">login.gov</a>,
-      your website will have the highest level of compliance, security, and scalability.
+      Focus your time and money on mission delivery,
+      not contract management.
+      Switch to Touchpoints - made for federal employees by federal employees.
     </p>
   </div>
 </div>
-
 <div class="grid-row grid-gap-lg">
   <div class="tablet:grid-col">
     <h2>
@@ -54,7 +51,7 @@ deck: "Easy, compliant customer feedback for federal agencies."
 <div class="grid-row grid-gap-lg">
   <div class="tablet:grid-col">
     <strong>
-      Software as a Service
+      Feedback as a Service
     </strong>
     <p>
       Touchpoints a FIPS Moderate-rated web application, deployed to cloud.gov.
@@ -76,7 +73,7 @@ deck: "Easy, compliant customer feedback for federal agencies."
   </div>
   <div class="tablet:grid-col">
     <strong>
-      Multi-modal survey delivery
+      Multi-modal Survey Delivery
     </strong>
     <p>
       Use a Touchpoints-hosted form by sharing the URL via any of your existing tools.
