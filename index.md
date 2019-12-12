@@ -6,7 +6,19 @@ deck: "Easy, compliant customer feedback for federal agencies."
 
 <div class="grid-row grid-gap-lg">
   <div class="tablet:grid-col">
-    <img class="org-img" src="/assets/img/done.svg" alt="">
+    <img class="org-img" src="{{ site.baseurl }}/assets/img/focus.svg" alt="Get Started">
+    <br>
+    <strong>
+      Start collecting Feedback
+    </strong>
+    <p>
+      You don't have to be an expert or spend months on coordination.
+      Touchpoints is an entry-level tool,
+      designed to get you started collecting basic customer feedback.
+    </p>
+  </div>
+  <div class="tablet:grid-col">
+    <img class="org-img" src="{{ site.baseurl }}/assets/img/done.svg" alt="Easy PRA">
     <br>
     <strong>
       Clear the PRA
@@ -18,7 +30,7 @@ deck: "Easy, compliant customer feedback for federal agencies."
     </p>
   </div>
   <div class="tablet:grid-col">
-    <img class="org-img" src="/assets/img/no-documents.svg" alt="">
+    <img class="org-img" src="{{ site.baseurl }}/assets/img/no-documents.svg" alt="Stay Organized">
     <br>
     <strong>
       Get and Stay Organized
@@ -26,18 +38,6 @@ deck: "Easy, compliant customer feedback for federal agencies."
     <p>
       Customer experience managers,
       you can keep track of surveys and feedback in one place.
-    </p>
-  </div>
-  <div class="tablet:grid-col">
-    <img class="org-img" src="/assets/img/focus.svg" alt="">
-    <br>
-    <strong>
-      Reinvest in Programs
-    </strong>
-    <p>
-      You don't have to be an expert or spend months on coordination.
-      Touchpoints is an entry-level tool,
-      designed to get you started collecting basic customer feedback.
     </p>
   </div>
 </div>
