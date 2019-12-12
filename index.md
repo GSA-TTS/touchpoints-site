@@ -53,7 +53,7 @@ deck: "Easy, compliant customer feedback for federal agencies."
       Feedback as a Service
     </strong>
     <p>
-      Touchpoints a FIPS Moderate-rated web application, deployed to cloud.gov.
+      Touchpoints is a FIPS Moderate-rated web application, deployed to cloud.gov.
       Spend more time on feedback and less time on tools
       by leveraging Touchpoints to collect customer feedback.
     </p>
@@ -64,7 +64,7 @@ deck: "Easy, compliant customer feedback for federal agencies."
     </strong>
     <p>
       Touchpoints simplifies quarterly CX CAP reporting
-      by providing standard data reports. 
+      by providing standard data reports.
     </p>
   </div>
   <div class="tablet:grid-col">
