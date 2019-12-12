@@ -60,20 +60,20 @@ deck: "Easy, compliant customer feedback for federal agencies."
   </div>
   <div class="tablet:grid-col">
     <strong>
-      Streamlined Reporting
-    </strong>
-    <p>
-      Touchpoints simplifies quarterly CX CAP reporting
-      by providing standard data reports.
-    </p>
-  </div>
-  <div class="tablet:grid-col">
-    <strong>
       Multi-modal Survey Delivery
     </strong>
     <p>
       Use a Touchpoints-hosted form by sharing the URL via any of your existing tools.
       Or, deploy a touchpoint on your own web property with a script tag.
+    </p>
+  </div>
+  <div class="tablet:grid-col">
+    <strong>
+      Streamlined Reporting
+    </strong>
+    <p>
+      Touchpoints simplifies quarterly CX CAP reporting
+      by providing standard data reports.
     </p>
   </div>
 </div>
