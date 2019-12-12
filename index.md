@@ -13,7 +13,7 @@ deck: "Easy, compliant customer feedback for federal agencies."
     </strong>
     <p>
       Worried about PRA compliance?
-      Now you don't have to! With touchpoints,
+      Now you don't have to! With Touchpoints,
       you can fast track OMB approval in as little as 10 days.
     </p>
   </div>
@@ -35,9 +35,9 @@ deck: "Easy, compliant customer feedback for federal agencies."
       Reinvest in Programs
     </strong>
     <p>
-      Focus your time and money on mission delivery,
-      not contract management.
-      Switch to Touchpoints - made for federal employees by federal employees.
+      You don't have to be an expert or spend months on coordination.
+      Touchpoints is an entry-level tool,
+      designed to get you started collecting basic customer feedback.
     </p>
   </div>
 </div>
@@ -77,7 +77,7 @@ deck: "Easy, compliant customer feedback for federal agencies."
     </strong>
     <p>
       Use a Touchpoints-hosted form by sharing the URL via any of your existing tools.
-      Or, deploy a Touchpoint on your own web property with a script tag.
+      Or, deploy a touchpoint on your own web property with a script tag.
     </p>
   </div>
 </div>
