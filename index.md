@@ -25,7 +25,7 @@ deck: "Easy, compliant customer feedback for federal agencies."
     </strong>
     <p>
       Touchpoints provides a common feedback survey template
-      that leverages an existing PRA fast-track approval.
+      that leverages an existing PRA clearance.
     </p>
   </div>
   <div class="tablet:grid-col">
