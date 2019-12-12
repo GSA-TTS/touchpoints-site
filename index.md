@@ -21,12 +21,11 @@ deck: "Easy, compliant customer feedback for federal agencies."
     <img class="org-img" src="{{ site.baseurl }}/assets/img/done.svg" alt="Easy PRA">
     <br>
     <strong>
-      Clear the PRA
+      PRA-friendly
     </strong>
     <p>
-      Worried about PRA compliance?
-      Now you don't have to! With Touchpoints,
-      you can fast track OMB approval in as little as 10 days.
+      Touchpoints provides a common feedback survey template
+      that leverages an existing PRA fast-track approval.
     </p>
   </div>
   <div class="tablet:grid-col">
@@ -61,14 +60,11 @@ deck: "Easy, compliant customer feedback for federal agencies."
   </div>
   <div class="tablet:grid-col">
     <strong>
-      PRA-friendly A-11 Form
+      Streamlined Reporting
     </strong>
     <p>
-      PRA requirements exist to ensure public data is used in a compliant,
-      authorized way.
-      The CX CAP Goal Team
-      has worked to streamline the PRA approval of the A-11 Form
-      with an approval turnaround in 5 days.
+      Touchpoints simplifies quarterly CX CAP reporting
+      by providing standard data reports. 
     </p>
   </div>
   <div class="tablet:grid-col">
