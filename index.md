@@ -21,12 +21,11 @@ deck: "Easy, compliant customer feedback for federal agencies."
     <img class="org-img" src="{{ site.baseurl }}/assets/img/done.svg" alt="Easy PRA">
     <br>
     <strong>
-      Clear the PRA
+      PRA-friendly
     </strong>
     <p>
-      Worried about PRA compliance?
-      Now you don't have to! With Touchpoints,
-      you can fast track OMB approval in as little as 10 days.
+      Touchpoints provides a common feedback survey template
+      that leverages an existing PRA clearance.
     </p>
   </div>
   <div class="tablet:grid-col">
@@ -54,21 +53,9 @@ deck: "Easy, compliant customer feedback for federal agencies."
       Feedback as a Service
     </strong>
     <p>
-      Touchpoints a FIPS Moderate-rated web application, deployed to cloud.gov.
+      Touchpoints is a FIPS Moderate-rated web application, deployed to cloud.gov.
       Spend more time on feedback and less time on tools
       by leveraging Touchpoints to collect customer feedback.
-    </p>
-  </div>
-  <div class="tablet:grid-col">
-    <strong>
-      PRA-friendly A-11 Form
-    </strong>
-    <p>
-      PRA requirements exist to ensure public data is used in a compliant,
-      authorized way.
-      The CX CAP Goal Team
-      has worked to streamline the PRA approval of the A-11 Form
-      with an approval turnaround in 5 days.
     </p>
   </div>
   <div class="tablet:grid-col">
@@ -78,6 +65,15 @@ deck: "Easy, compliant customer feedback for federal agencies."
     <p>
       Use a Touchpoints-hosted form by sharing the URL via any of your existing tools.
       Or, deploy a touchpoint on your own web property with a script tag.
+    </p>
+  </div>
+  <div class="tablet:grid-col">
+    <strong>
+      Streamlined Reporting
+    </strong>
+    <p>
+      Touchpoints simplifies quarterly CX CAP reporting
+      by providing standard data reports.
     </p>
   </div>
 </div>
