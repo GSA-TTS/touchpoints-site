@@ -19,8 +19,8 @@
     "watch": "gulp watch"
   },
   "dependencies": {
-    "acorn": "^6.3.0",
-    "autoprefixer": "^9.6.1",
+    "acorn": "^7.0.0",
+    "autoprefixer": "^9.7.3",
     "braces": "^2.3.2",
     "css-mqpacker": "^7.0.0",
     "cssnano": "^4.1.4",
@@ -35,10 +35,10 @@
     "gulp-sourcemaps": "^2.6.4",
     "gulp-watch": "^5.0.0",
     "path": "^0.12.7",
-    "postcss": "^7.0.18",
-    "postcss-uncss": "^0.16.1",
-    "uncss": "^0.16.2",
-    "uswds": "^2.1.0",
+    "postcss": "^7.0.24",
+    "postcss-uncss": "^0.17.0",
+    "uncss": "^0.17.0",
+    "uswds": "^2.3.1",
     "uswds-gulp": "github:uswds/uswds-gulp"
   }
 }
