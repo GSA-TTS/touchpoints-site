@@ -3,42 +3,32 @@ layout: home
 title: Touchpoints
 ---
 
-<div style="background-color: #162E51; min-height: 280px;">
-  <div class="grid-container">
+<div style="background-color: #162E51;">
+  <div class="grid-container usa-prose">
     <div class="grid-row grid-gap">
-      <div class="tablet:grid-col-6 text-center">
-        <img class="" src="{{ site.baseurl }}/assets/img/touchpoints-screenshot.png" alt="Touchpoints Screenshot">
+      <div class="tablet:grid-col-6" style="align-items: center; display: flex; justify-content: center;">
+        <img src="{{ site.baseurl }}/assets/img/touchpoints-screenshot.jpg" alt="Touchpoints Screenshot">
       </div>
       <div class="tablet:grid-col-6" style="color: white;">
-        <div style="font-size: 2.25em; font-weight: bold; margin-top: 12px;">
-          Gather secure customer feedback with ease
+        <div class="usa-intro" style="font-size: 2em; margin-top: 18px;">
+          Making customer feedback easier for federal agencies.
         </div>
         <p style="font-size: 1.125em;">
-          Touchpoints offers a rapid,
-          PRA approved solution to your surveying needs.
-          With your Touchpoints account,
-          you can keep track of your customer feedback
-          through targeted surveys across locations and services.
+          Touchpoints offers a simple,
+          flexible, and convenient way to start collecting customer feedback
+          so you can focus on serving your customers rather than managing surveys.
         </p>
-        <p>
-          <a href="https://touchpoints.app.cloud.gov/users/sign_in" class="usa-button" target="_blank" rel="noopener">Get Started Today</a>
+        <p style="margin-bottom: 20px;">
+          <a href="https://touchpoints.app.cloud.gov/" class="usa-button" target="_blank" rel="noopener">Get started</a>
         </p>
       </div>
     </div>
   </div>
 </div>
-
-<main class="usa-layout-docs usa-section" id="main-content">
+<main class="usa-layout-docs" id="main-content">
   <div class="grid-container">
     <div class="grid-row grid-gap">
       <div class="usa-layout-docs__main desktop:grid-col-12 usa-prose">
-        {{ content }}
-
-
-
-        <p class="usa-intro">
-          Easy, compliant customer feedback for federal agencies.
-        </p>
 
         <div class="grid-row grid-gap-lg">
           <div class="tablet:grid-col">
