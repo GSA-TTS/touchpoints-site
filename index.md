@@ -32,7 +32,7 @@ title: Touchpoints
 
         <div class="grid-row grid-gap-lg">
           <div class="tablet:grid-col">
-            <img class="org-img" src="{{ site.baseurl }}/assets/img/focus.svg" alt="Get Started">
+            <img class="org-img" src="{{ site.baseurl }}/assets/img/done.svg" alt="Get started">
             <br>
             <strong>
               Start collecting Feedback
@@ -44,7 +44,8 @@ title: Touchpoints
             </p>
           </div>
           <div class="tablet:grid-col">
-            <img class="org-img" src="{{ site.baseurl }}/assets/img/done.svg" alt="Easy PRA">
+
+            <img class="org-img" src="{{ site.baseurl }}/assets/img/no-documents.svg" alt="PRA friendly">
             <br>
             <strong>
               PRA-friendly
@@ -55,14 +56,14 @@ title: Touchpoints
             </p>
           </div>
           <div class="tablet:grid-col">
-            <img class="org-img" src="{{ site.baseurl }}/assets/img/no-documents.svg" alt="Stay Organized">
+            <img class="org-img" src="{{ site.baseurl }}/assets/img/focus.svg" alt="Stay organized">
             <br>
             <strong>
               Get and Stay Organized
             </strong>
             <p>
-              Customer experience managers,
-              you can keep track of surveys and feedback in one place.
+              Customer experience managers
+              can keep track of surveys and feedback in one place.
             </p>
           </div>
         </div>
@@ -98,7 +99,7 @@ title: Touchpoints
               Streamlined Reporting
             </strong>
             <p>
-              Touchpoints simplifies quarterly CX CAP reporting
+              Touchpoints simplifies quarterly CX CAP Goal reporting
               by providing standard data reports.
             </p>
           </div>
