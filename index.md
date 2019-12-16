@@ -7,7 +7,7 @@ title: Touchpoints
   <div class="grid-container usa-prose">
     <div class="grid-row grid-gap">
       <div class="tablet:grid-col-6" style="align-items: center; display: flex; justify-content: center;">
-        <img src="{{ site.baseurl }}/assets/img/touchpoints-screenshot.jpg" alt="Touchpoints Screenshot">
+        <img src="{{ site.baseurl }}/assets/img/touchpoints-screenshot.jpg" alt="Touchpoints Screenshot" style="margin: 10px 0;">
       </div>
       <div class="tablet:grid-col-6" style="color: white;">
         <div class="usa-intro" style="font-size: 2em; margin-top: 18px;">
