@@ -2,15 +2,4 @@
 layout: default
 ---
 
-<main class="usa-layout-docs usa-section" id="main-content">
-  <div class="grid-container">
-    <div class="grid-row grid-gap">
-      <div class="usa-layout-docs__main desktop:grid-col-12 usa-prose">
-        {% if page.deck %}
-        <p class="usa-intro">{{ page.deck }}</p>
-        {% endif %}
-        {{ content }}
-      </div>
-    </div>
-  </div>
-</main>
+{{ content }}
