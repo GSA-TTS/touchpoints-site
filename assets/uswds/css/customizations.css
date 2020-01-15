@@ -4,3 +4,7 @@
 .usa-logo__text {
   margin: 10px 0;
 }
+
+.usa-logo__text a {
+  display: flex;
+}
