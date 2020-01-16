@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<main class="usa-layout-docs usa-section" id="main-content">
+  <div class="grid-container">
+    <div class="grid-row grid-gap">
+
+      {% include page-nav.html %}
+
+      <div class="usa-layout-docs__main desktop:grid-col-9 usa-prose">
+        <header>
+          <h1>{{ page.title }}</h1>
+          {{ if page.deck }}
+          <p class="lead">{{ page.deck }}</p>
+          {{ endif }}
+        </header>
+
+        <section>
+          <p class="usa-intro">The page heading communicates the main focus of the page. Make your page heading descriptive and keep it succinct.</p>
+
+          <h2>In this page</h2>
+          {{ content | toc }}
+
+        </section>
+
+      </div>
+    </div>
+  </div>
+</main>
