@@ -24,4 +24,10 @@
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-TSRQBRG');</script>
   <!-- End Google Tag Manager -->
+
+  <!-- Redirect =============== -->
+  <meta http-equiv="refresh" content="1; url={{ site.new_url | escape }}">
+  <script type="text/javascript">
+    window.location.href = "{{ site.new_url | escape }}"
+  </script>
 </head>
