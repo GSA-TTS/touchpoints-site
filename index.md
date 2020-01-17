@@ -99,7 +99,8 @@ title: Touchpoints
               Streamlined Reporting
             </strong>
             <p>
-              Touchpoints simplifies quarterly CX CAP Goal reporting
+              Touchpoints simplifies
+              quarterly A-11 Section 280 reporting
               by providing standard data reports.
             </p>
           </div>
