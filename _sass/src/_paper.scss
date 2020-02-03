@@ -1,6 +1,7 @@
 body{
   @include u-bg('indigo-warm-60v');
 }
+
 .paper{
   @include u-bg('white');
   @include u-width('full');
