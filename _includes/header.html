@@ -1,5 +1,5 @@
 <div class="usa-overlay"></div>
-<header class="usa-header usa-header--extended" role="banner">
+<header class="usa-header usa-header--extended">
   <div class="usa-navbar">
     <div class="usa-logo" id="extended-logo">
       <em class="usa-logo__text">
@@ -9,4 +9,35 @@
       </em>
     </div>
   </div>
+  <nav aria-label="Primary navigation" class="usa-nav">
+    <div class="usa-nav__inner">
+      <ul class="usa-nav__primary usa-accordion">
+        <li class="usa-nav__primary-item">
+          <button class="usa-accordion__button usa-nav__link" aria-expanded="false" aria-controls="basic-nav-section-one">
+            <span>Product information</span>
+          </button>
+          <ul id="basic-nav-section-one" class="usa-nav__submenu">
+            <li class="usa-nav__submenu-item">
+              <a href="https://github.com/gsa/touchpoints" target="_blank" rel="noopener">Open-source</a>
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href="https://github.com/gsa/touchpoints/wiki" target="_blank" rel="noopener">Product wiki</a>
+            </li>
+            <li class="usa-nav__submenu-item">
+              <a href="/terms.html" target="_blank" rel="noopener">Terms of service</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <div class="usa-nav__secondary">
+        <ul class="usa-nav__secondary-links">
+          <li class="usa-nav__secondary-item">
+            <a href="https://touchpoints.app.cloud.gov/users/auth/login_dot_gov">
+              Sign in with Login.gov
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 </header>
