@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Touchpoints
+title: Touchpoints Terms of Service
 ---
 
 <div class="grid-container usa-prose">
@@ -135,7 +135,7 @@ title: Touchpoints
           Touchpoints is covered by a FIPS 199 Moderate LATO (Lightweight Authority to
           Operate). Details can be found in the Touchpoints System Security Plan (SSP) document.
           Agencies may request a copy of the SSP by contacting the Touchpoints team at
-          <%= link_to "touchpoints-support@gsa.gov", "mailto:touchpoints-support@gsa.gov" %>
+          <a href="mailto:feedback-analytics@gsa.gov">feedback-analytics@gsa.gov</a>.
         </li>
         <li>
           Touchpoints is pursuing a 1-year full ATO after the LATO.
