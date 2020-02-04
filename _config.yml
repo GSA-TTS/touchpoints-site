@@ -1,7 +1,7 @@
 title: "Touchpoints"
 baseurl: ""
 url: ""
-new_url: https://digital.gov?=touchpoints
+new_url: https://touchpoints.digital.gov
 
 exclude:
   - assets/js/src
