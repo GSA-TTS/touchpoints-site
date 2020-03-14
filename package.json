@@ -19,7 +19,7 @@
     "watch": "gulp watch"
   },
   "dependencies": {
-    "acorn": "^7.0.0",
+    "acorn": "^7.1.1",
     "autoprefixer": "^9.7.3",
     "braces": "^2.3.2",
     "css-mqpacker": "^7.0.0",
