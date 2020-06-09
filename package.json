@@ -35,7 +35,7 @@
     "gulp-sourcemaps": "^2.6.4",
     "gulp-watch": "^5.0.0",
     "path": "^0.12.7",
-    "postcss": "^7.0.24",
+    "postcss": "^7.0.30",
     "postcss-uncss": "^0.17.0",
     "uncss": "^0.17.0",
     "uswds": "^2.4.0",
