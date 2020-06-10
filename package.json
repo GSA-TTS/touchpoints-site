@@ -16,7 +16,9 @@
     "uswds-copy-js": "gulp copy-uswds-js",
     "uswds-copy-theme": "gulp copy-uswds-setup",
     "uswds-update": "npm update uswds && ./build.sh",
-    "watch": "gulp watch"
+    "watch": "gulp watch",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "acorn": "^7.2.0",
@@ -39,6 +41,8 @@
     "postcss-uncss": "^0.17.0",
     "uncss": "^0.17.0",
     "uswds": "^2.4.0",
-    "uswds-gulp": "github:uswds/uswds-gulp"
-  }
+    "uswds-gulp": "github:uswds/uswds-gulp",
+    "snyk": "^1.338.0"
+  },
+  "snyk": true
 }
