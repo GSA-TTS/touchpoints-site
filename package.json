@@ -22,27 +22,31 @@
   },
   "dependencies": {
     "acorn": "^7.2.0",
-    "autoprefixer": "^9.8.0",
     "braces": "^2.3.2",
     "css-mqpacker": "^7.0.0",
     "cssnano": "^4.1.4",
     "del": "^3.0.0",
-    "gulp": "^4.0.0",
     "gulp-gzip": "^1.4.2",
-    "gulp-postcss": "^8.0.0",
     "gulp-rename": "^1.4.0",
-    "gulp-replace": "^1.0.0",
-    "gulp-sass": "^4.1.0",
     "gulp-size": "^3.0.0",
-    "gulp-sourcemaps": "^2.6.4",
     "gulp-watch": "^5.0.0",
     "path": "^0.12.7",
     "postcss": "^7.0.32",
     "postcss-uncss": "^0.17.0",
-    "uncss": "^0.17.3",
-    "uswds": "^2.4.0",
-    "uswds-gulp": "github:uswds/uswds-gulp",
-    "snyk": "^1.338.0"
+    "snyk": "^1.338.0",
+    "uncss": "^0.17.3"
   },
-  "snyk": true
+  "snyk": true,
+  "devDependencies": {
+    "autoprefixer": "^9.8.0",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^8.0.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "postcss-csso": "^4.0.0",
+    "sass": "^1.26.8",
+    "uswds": "^2.4.0",
+    "uswds-gulp": "github:uswds/uswds-gulp"
+  }
 }
