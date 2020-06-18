@@ -7,7 +7,7 @@
 ========================================
 ========================================
 ----------------------------------------
-USWDS 2.4.0
+USWDS 2.7.0
 ----------------------------------------
 TYPOGRAPHY SETTINGS
 ----------------------------------------
@@ -167,7 +167,7 @@ $theme-font-type-lang: false;
 $theme-font-type-mono: "roboto-mono";
 
 // sans-serif
-$theme-font-type-sans: "public-sans";
+$theme-font-type-sans: "source-sans-pro";
 
 // serif
 $theme-font-type-serif: "merriweather";
@@ -320,8 +320,8 @@ Or use `false` for unneeded weights.
 */
 
 $theme-font-weight-thin: false;
-$theme-font-weight-light: 200;
-$theme-font-weight-normal: 300;
+$theme-font-weight-light: 300;
+$theme-font-weight-normal: 400;
 $theme-font-weight-medium: false;
 $theme-font-weight-semibold: false;
 $theme-font-weight-bold: 700;
