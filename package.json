@@ -21,7 +21,7 @@
     "prepare": "npm run snyk-protect"
   },
   "dependencies": {
-    "acorn": "^7.2.0",
+    "acorn": "^7.3.0",
     "autoprefixer": "^9.8.0",
     "braces": "^2.3.2",
     "css-mqpacker": "^7.0.0",
