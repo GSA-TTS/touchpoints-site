@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "acorn": "^7.2.0",
-    "autoprefixer": "^9.8.0",
+    "autoprefixer": "^9.8.1",
     "braces": "^2.3.2",
     "css-mqpacker": "^7.0.0",
     "cssnano": "^4.1.4",
