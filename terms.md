@@ -530,11 +530,11 @@ title: Touchpoints Terms of Service
           surveys per quarter for FY19 Q3 and Q4.
         </li>
         <li>
-          Agency users can contact the Feedback Analytics team at <%= link_to "touchpoints-support@gsa.gov", "mailto:touchpoints-support@gsa.gov" %>.
+          Agency users can contact the Feedback Analytics team at
+          <a href="feedback-analytics@gsa.gov">feedback-analytics@gsa.gov</a>.
           The team will respond to customer service inquiries within two (2) business days.
         </li>
       </ul>
-
       <a name="funding"></a>
       <h3>
         7.0 FUNDING
