@@ -41,7 +41,7 @@
     "postcss-csso": "^4.0.0",
     "postcss-uncss": "^0.17.0",
     "sass": "^1.26.10",
-    "snyk": "^1.377.0",
+    "snyk": "^1.388.0",
     "uncss": "^0.17.3",
     "uswds": "^2.8.1",
     "uswds-gulp": "github:uswds/uswds-gulp"
