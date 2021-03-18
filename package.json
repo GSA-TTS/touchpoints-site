@@ -21,8 +21,8 @@
     "prepare": "npm run snyk-protect"
   },
   "dependencies": {
-    "acorn": "^7.2.0",
-    "autoprefixer": "^9.8.0",
+    "acorn": "^7.4.0",
+    "autoprefixer": "^9.8.6",
     "braces": "^2.3.2",
     "css-mqpacker": "^7.0.0",
     "cssnano": "^4.1.4",
@@ -40,10 +40,10 @@
     "postcss": "^7.0.32",
     "postcss-csso": "^4.0.0",
     "postcss-uncss": "^0.17.0",
-    "sass": "^1.26.8",
-    "snyk": "^1.338.0",
+    "sass": "^1.26.10",
+    "snyk": "^1.388.0",
     "uncss": "^0.17.3",
-    "uswds": "^2.7.0",
+    "uswds": "^2.8.1",
     "uswds-gulp": "github:uswds/uswds-gulp"
   },
   "snyk": true
