@@ -1,0 +1,84 @@
+---
+layout: home
+title: Touchpoints Terms of Service
+---
+
+<div class="grid-container usa-prose">
+  <div class="grid-row grid-gap-md">
+    <div class="grid-col-3">
+      <ul>
+        <li>
+          <a href="#touchpoints">Touchpoints</a>
+        </li>
+        <li>
+          <a href="#feedback-data">Data use</a>
+        </li>
+      </ul>
+    </div>
+    <div class="grid-col-9">
+      <h1 id="frequently-asked-questions">Frequently Asked Questions</h1>
+
+      <p><a name="touchpoints"></a></p>
+      <div class="usa-alert usa-alert--info">
+        <div class="usa-alert__body">
+          <p class="usa-alert__text">
+            What is Touchpoints?
+          </p>
+        </div>
+      </div>
+
+      <p>See the <a href="/services#touchpoints">Touchpoints</a> page.</p>
+
+      <h3 id="how-do-i-get-access-to-touchpoints">How do I get access to Touchpoints?</h3>
+
+      <p>
+        <a href="mailto:feedback-analytics@gsa.gov">Contact</a>
+        the Feedback Analytics team to setup a Demo today.
+      </p>
+
+      <h3 id="how-does-the-public-submit-feedback">How does the public submit feedback?</h3>
+
+      <p>The public has the option to submit feedback online via a mobile-friendly website.</p>
+
+      <p><a name="feedback-data"></a></p>
+      <div class="usa-alert usa-alert--info">
+        <div class="usa-alert__body">
+          <p class="usa-alert__text">
+            How is my data used?
+          </p>
+        </div>
+      </div>
+
+      <h3 id="is-the-feedback-anonymous">Is the feedback anonymous?</h3>
+
+      <p>Touchpoints forms that do not ask for any Personally Identifiable Information (PII) cannot be used to identify an individual.</p>
+
+      <h3 id="are-members-of-the-public-required-to-provide-feedback">Are members of the public required to provide feedback?</h3>
+
+      <p>Submitting feedback is purely optional.</p>
+
+      <h3 id="how-will-the-feedback-collected-be-used">How will the feedback collected be used?</h3>
+
+      <p>
+        Government agencies participating in the program may use your feedback to improve how they deliver their services.
+        GSA may partner with agencies to analyze the feedback data and develop action plans for the purposes of improving customer experience.
+      </p>
+
+      <h3 id="who-can-see-my-feedback">Who can see my feedback?</h3>
+
+      <p>
+        Feedback submitted via Touchpoints is accessible by the authorized staff of participating agencies.
+      </p>
+      <p>
+        Under guidance from 2018 A-11 Circular, High Impact Service Providers (HISPs) participating in the Customer Experience Cross Agency Priority Goal, part of the President’s Management Agenda, collect anonymous customer experience scores that
+        are aggregated at the service level and publicly available at
+        <a href="https://www.performance.gov/cx/" target="_blank" rel="noopener">performance.gov/cx</a>.
+      </p>
+
+      <h3 id="what-languages-are-available-for-the-public-to-submit-feedback">What languages are available for the public to submit feedback?
+      </h3>
+
+      <p>English is the only language available at this time.</p>
+    </div>
+  </div>
+</div>
