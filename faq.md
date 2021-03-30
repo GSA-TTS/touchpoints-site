@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Touchpoints Terms of Service
+title: Touchpoints Frequently Asked Questions
 ---
 
 <div class="grid-container usa-prose">
