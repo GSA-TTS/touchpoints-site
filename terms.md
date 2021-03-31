@@ -1,6 +1,7 @@
 ---
 layout: home
 title: Touchpoints Terms of Service
+permalink: /terms/
 ---
 
 <div class="grid-container usa-prose">
