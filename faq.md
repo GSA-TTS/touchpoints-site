@@ -1,6 +1,7 @@
 ---
 layout: home
 title: Touchpoints Frequently Asked Questions
+permalink: /faq/
 ---
 
 <div class="grid-container usa-prose">
