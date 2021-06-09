@@ -81,7 +81,9 @@ permalink: /faq/
         Feedback submitted via Touchpoints is accessible by the authorized staff of participating agencies.
       </p>
       <p>
-        Under guidance from 2018 A-11 Circular, High Impact Service Providers (HISPs) participating in the Customer Experience Cross Agency Priority Goal, part of the President’s Management Agenda,
+        Under guidance from
+        [2018 A-11 Circular](https://www.performance.gov/cx/assets/files/a11-280.pdf),
+        High Impact Service Providers (HISPs) participating in the Customer Experience Cross Agency Priority Goal, part of the President’s Management Agenda,
         anonymous customer experience scores may be
         aggregated at the service level and published at
         <a href="https://www.performance.gov/cx/" target="_blank" rel="noopener">performance.gov/cx</a>.
