@@ -68,10 +68,18 @@ permalink: /faq/
         </div>
       </div>
 
-      <h3 id="how-will-the-feedback-collected-be-used">How will feedback collected be used?</h3>
+      <h3 id="is-the-feedback-anonymous">Is the feedback anonymous?</h3>
+
+      <p>Touchpoints forms that do not ask for any Personally Identifiable Information (PII) cannot be used to identify an individual.</p>
+
+      <h3 id="are-members-of-the-public-required-to-provide-feedback">Are members of the public required to provide feedback?</h3>
+
+      <p>Submitting feedback is purely optional.</p>
+
+      <h3 id="how-will-the-feedback-collected-be-used">How will the feedback collected be used?</h3>
 
       <p>
-        Government agencies participating in the program may use feedback to improve how they deliver their services.
+        Government agencies participating in the program may use your feedback to improve how they deliver their services.
         GSA may partner with agencies to analyze the feedback data and develop action plans for the purposes of improving customer experience.
       </p>
 
