@@ -56,7 +56,7 @@ permalink: /faq/
         Members of the public have the option to submit feedback
         via online forms
         located either on the Touchpoints website or
-        another .gov or .mil websites.
+        other .gov or .mil websites.
       </p>
 
       <p><a name="feedback-data"></a></p>
@@ -68,7 +68,7 @@ permalink: /faq/
         </div>
       </div>
 
-      <h3 id="how-will-the-feedback-collected-be-used">How will the feedback collected be used?</h3>
+      <h3 id="how-will-the-feedback-collected-be-used">How will feedback collected be used?</h3>
 
       <p>
         Government agencies participating in the program may use feedback to improve how they deliver their services.
@@ -81,8 +81,9 @@ permalink: /faq/
         Feedback submitted via Touchpoints is accessible by the authorized staff of participating agencies.
       </p>
       <p>
-        Under guidance from 2018 A-11 Circular, High Impact Service Providers (HISPs) participating in the Customer Experience Cross Agency Priority Goal, part of the President’s Management Agenda, collect anonymous customer experience scores that
-        are aggregated at the service level and publicly available at
+        Under guidance from 2018 A-11 Circular, High Impact Service Providers (HISPs) participating in the Customer Experience Cross Agency Priority Goal, part of the President’s Management Agenda,
+        anonymous customer experience scores may be
+        aggregated at the service level and published at
         <a href="https://www.performance.gov/cx/" target="_blank" rel="noopener">performance.gov/cx</a>.
       </p>
 
