@@ -20,7 +20,6 @@
     "prepare": "npm run snyk-protect"
   },
   "dependencies": {
-    "braces": "^3.0.2",
     "snyk": "^1.833.0",
     "uswds": "^2.12.1"
   },
