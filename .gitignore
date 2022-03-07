@@ -5,3 +5,6 @@ _site
 node_modules
 .gz
 .DS_Store
+
+# Imported from USWDS copyAssets and copyImages task
+material-icons/
