@@ -65,7 +65,7 @@ permalink: /terms/
         ADMINISTERED BY THE U.S. GENERAL SERVICES ADMINISTRATION
       </p>
       <p>
-      Version 1.0, updated: 07/18/2019
+      Version 1.0, updated: 03/11/2022
       </p>
       <a name="summary"></a>
       <h3>
@@ -133,13 +133,10 @@ permalink: /terms/
 
       <ul>
         <li>
-          Touchpoints is covered by a FIPS 199 Moderate LATO (Lightweight Authority to
-          Operate). Details can be found in the Touchpoints System Security Plan (SSP) document.
+          Touchpoints is covered by a FIPS 199 Moderate ATO.
+          Details can be found in the Touchpoints System Security Plan (SSP) document.
           Agencies may request a copy of the SSP by contacting the Touchpoints team at
           <a href="mailto:feedback-analytics@gsa.gov">feedback-analytics@gsa.gov</a>.
-        </li>
-        <li>
-          Touchpoints is pursuing a 1-year full ATO after the LATO.
         </li>
         <li>
           Data is encrypted via HTTPS while in transit.
