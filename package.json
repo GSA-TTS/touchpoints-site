@@ -18,7 +18,9 @@
     "uswds-update": "npm update uswds",
     "watch": "gulp watch",
     "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
+    "prepare": "npm run snyk-protect",
+    "start-detached": "bundle exec jekyll serve --detach",
+    "pa11y-ci:sitemap": "pa11y-ci --sitemap http://localhost:4000/sitemap.xml --sitemap-exclude \"/*.pdf\""
   },
   "dependencies": {
     "acorn": "^8.7.0",
@@ -46,5 +48,8 @@
     "uswds": "^2.12.1",
     "uswds-gulp": "github:uswds/uswds-gulp"
   },
-  "snyk": true
+  "snyk": true,
+  "devDependencies": {
+    "pa11y-ci": "^3.0.1"
+  }
 }
