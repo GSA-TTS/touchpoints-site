@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "snyk": "^1.833.0",
-    "uswds": "^2.12.1"
+    "uswds": "^2.13.3"
   },
   "snyk": true,
   "devDependencies": {
