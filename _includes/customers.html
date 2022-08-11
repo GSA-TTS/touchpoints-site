@@ -1,0 +1,47 @@
+<div class="bg-base-lightest padding-1 margin-top-5">
+  <div class="grid-container margin-top-5">
+    <div class="grid-row grid-gap-lg">
+      <div class="tablet:grid-col">
+        <h2 class="font-sans-xl text-normal text-center">
+          Federal agencies use Touchpoints to collect and report on feedback data.
+        </h2>
+      </div>
+    </div>
+    <br>
+    <div class="grid-row grid-gap-lg">
+      {% assign org_abbreviations = "GSA,USDA,DOC,OMB,HHS,ED,VA,DOI,STATE,CENSUS,USAID" | split: "," %}
+      {% assign orgs = site.data.organizations.data | sort: "attributes.name"  %}
+      <ul class="usa-card-group">
+        {% for org in orgs -%}
+        {% unless org_abbreviations contains org["attributes"]["abbreviation"] %}
+        {% continue %}
+        {% endunless %}
+        <li class="usa-card desktop:grid-col-4 tablet:grid-col-6">
+          <div class="usa-card__container">
+            <div class="usa-card__header margin-bottom-1">
+              <h3 class="font-sans-sm text-normal text-center">
+                <a href="{{ org['attributes']['url'] }}"
+                  style="text-decoration: none; color: black;"
+                  target="_blank">
+                  {{ org['attributes']['name'] }}
+                </a>
+              </h3>
+            </div>
+            <div class="usa-card__media">
+              <div class="usa-card__img bg-white">
+                <a href="{{ org['attributes']['url'] }}" target="_blank">
+                  <img
+                  src="https://www.performance.gov/assets/images/seals/{{ org['attributes']['abbreviation'] | downcase }}.svg"
+                  alt="{{ org['attributes']['name'] }} logo"
+                  style="max-width: 72px; margin: 1rem auto 0 auto;"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
