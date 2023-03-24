@@ -529,7 +529,7 @@ permalink: /terms/
         </li>
         <li>
           Agency users can contact the Feedback Analytics team at
-          <a href="feedback-analytics@gsa.gov">feedback-analytics@gsa.gov</a>.
+          <a href="mailto:feedback-analytics@gsa.gov">feedback-analytics@gsa.gov</a>.
           The team will respond to customer service inquiries within two (2) business days.
         </li>
       </ul>
