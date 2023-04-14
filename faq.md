@@ -6,7 +6,7 @@ permalink: /faq/
 
 <div class="grid-container usa-prose">
   <div class="grid-row grid-gap-md">
-    <div class="grid-col-3">
+    <div class="tablet:grid-col-3">
       <ul>
         <li>
           <a href="#touchpoints">Touchpoints</a>
@@ -16,7 +16,7 @@ permalink: /faq/
         </li>
       </ul>
     </div>
-    <div class="grid-col-9">
+    <div class="tablet:grid-col-9">
       <h1 id="frequently-asked-questions">Frequently Asked Questions</h1>
 
       <p><a name="touchpoints"></a></p>
@@ -74,7 +74,7 @@ permalink: /faq/
 
       <h3 id="are-members-of-the-public-required-to-provide-feedback">Are members of the public required to provide feedback?</h3>
 
-      <p>Submitting feedback is purely optional.</p>
+      <p>No. Submitting feedback is purely optional.</p>
 
       <h3 id="how-will-the-feedback-collected-be-used">How will the feedback collected be used?</h3>
 
@@ -102,14 +102,6 @@ permalink: /faq/
         <a href="{{ site.baseurl }}/terms/">Terms of Service</a>
         for more information.
       </p>
-
-      <h3 id="is-the-feedback-anonymous">Is the feedback anonymous?</h3>
-
-      <p>Touchpoints forms that do not ask for any Personally Identifiable Information (PII) cannot be used to identify an individual.</p>
-
-      <h3 id="are-members-of-the-public-required-to-provide-feedback">Are members of the public required to provide feedback?</h3>
-
-      <p>No. Submitting feedback is optional.</p>
 
       <h3 id="what-languages-are-available-for-the-public-to-submit-feedback">What languages are available for the public to submit feedback?
       </h3>
