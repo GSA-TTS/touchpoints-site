@@ -6,8 +6,8 @@ permalink: /terms/
 
 <div class="grid-container usa-prose">
   <div class="grid-row grid-gap-md">
-    <div class="grid-col-3">
-      <ol>
+    <div class="tablet:grid-col-3">
+      <ol role="region" aria-label="Sub-navigation">
         <li>
           <a href="#summary">Service Summary</a>
         </li>
@@ -55,7 +55,7 @@ permalink: /terms/
         </li>
       </ol>
     </div>
-    <div class="grid-col-9">
+    <div class="tablet:grid-col-9">
       <h1>
         Terms of Service
       </h1>
