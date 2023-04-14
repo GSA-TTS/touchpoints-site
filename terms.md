@@ -67,8 +67,7 @@ permalink: /terms/
       <p>
       Version 1.0, updated: 03/11/2022
       </p>
-      <a name="summary"></a>
-      <h3>
+      <h3 id="summary">
         1.0 SERVICE SUMMARY
       </h3>
       <p>
@@ -89,8 +88,7 @@ permalink: /terms/
         Initially, Touchpoints is for use by High Impact Service Providers and other agencies beginning
         to collect customer feedback in line with OMB Circular A-11 Section 280.
       </p>
-      <a name="data-use"></a>
-      <h3>
+      <h3 id="data-use">
         2.0 DATA COLLECTION, USE, AND SECURITY
       </h3>
       <h4>
@@ -204,64 +202,66 @@ permalink: /terms/
           GSA will retain survey instrument and submission data as advised in the following record
           schedules:
         </li>
-        <ul>
-          <li>
-            352.2 – Information Hosting Records
-            <ul>
-              <li>
-                This group of records is focused on the information services that GSA
-                provides to others outside of GSA. Examples include Data.gov and
-                USA.gov. Such activities include creating and maintaining web content for
-                both the public and outside the agency, and related records in developing
-                and managing and closing down such a service.
-              </li>
-            </ul>
-          </li>
-          <li>
-            352.2/011 - Publicly-posted Information (DAA-0352-2016-0001-0004)
-            <ul>
-              <li>
-                This series consists of content (information and documents) in a variety
-                of formats posted by GSA on agency web sites hosted by GSA, and
-                content posted on, or submitted via, those web sites by the public.
-                Included are static web pages, historically insignificant public dialogues
-                such as forums, surveys, and comment postings, regulatory or statutorily
-                mandated public postings, and related records. This schedule item
-                covers copies of content received from agencies and posted by GSA on
-                the web sites. The record copy of the content (retained by the
-                originating agency) is covered by the records schedules of the agencies
-                that originated the content. The content posted to the web sites by the
-                public is covered by this schedule item.
-              </li>
-              <li>
-                <i>Temporary</i>. Cutoff at the end of the fiscal year in which the posting
-                becomes superseded, obsolete, or canceled. Destroy 3 years after cutoff.
-                Longer retention is authorized in order to comply with requirements for
-                public posting stipulated by regulation, agency directives, OMB or GAO
-                mandates, or similar authorities.
-              </li>
-            </ul>
-          </li>
-          <li>
-            352.2/021 – Information Service Program Management Records
-            (DAA-0352-2016-0001-0005)
-            <ul>
-              <li>
-                This series of records is concerned with creating and managing an
-                information resource (e.g., Data.gov and USA.gov) for use or reference by
-                the public and/or Federal agencies in carrying out their work. Included
-                are change management decisions, planning documents, promotional
-                materials, review reports, correspondence, and related records.
-              </li>
-              <li>
-                <i>Temporary</i>. Cut off at the end of the fiscal year. Destroy 3 years after
-                cutoff. Longer retention is authorized if required for statutory or
-                authoritative reasons, such as directives agreements, contracts, OMB or
-                GAO requirements, or similar authorities.
-              </li>
-            </ul>
-          </li>
-        </ul>
+        <li>
+          <ul>
+            <li>
+              352.2 – Information Hosting Records
+              <ul>
+                <li>
+                  This group of records is focused on the information services that GSA
+                  provides to others outside of GSA. Examples include Data.gov and
+                  USA.gov. Such activities include creating and maintaining web content for
+                  both the public and outside the agency, and related records in developing
+                  and managing and closing down such a service.
+                </li>
+              </ul>
+            </li>
+            <li>
+              352.2/011 - Publicly-posted Information (DAA-0352-2016-0001-0004)
+              <ul>
+                <li>
+                  This series consists of content (information and documents) in a variety
+                  of formats posted by GSA on agency web sites hosted by GSA, and
+                  content posted on, or submitted via, those web sites by the public.
+                  Included are static web pages, historically insignificant public dialogues
+                  such as forums, surveys, and comment postings, regulatory or statutorily
+                  mandated public postings, and related records. This schedule item
+                  covers copies of content received from agencies and posted by GSA on
+                  the web sites. The record copy of the content (retained by the
+                  originating agency) is covered by the records schedules of the agencies
+                  that originated the content. The content posted to the web sites by the
+                  public is covered by this schedule item.
+                </li>
+                <li>
+                  <i>Temporary</i>. Cutoff at the end of the fiscal year in which the posting
+                  becomes superseded, obsolete, or canceled. Destroy 3 years after cutoff.
+                  Longer retention is authorized in order to comply with requirements for
+                  public posting stipulated by regulation, agency directives, OMB or GAO
+                  mandates, or similar authorities.
+                </li>
+              </ul>
+            </li>
+            <li>
+              352.2/021 – Information Service Program Management Records
+              (DAA-0352-2016-0001-0005)
+              <ul>
+                <li>
+                  This series of records is concerned with creating and managing an
+                  information resource (e.g., Data.gov and USA.gov) for use or reference by
+                  the public and/or Federal agencies in carrying out their work. Included
+                  are change management decisions, planning documents, promotional
+                  materials, review reports, correspondence, and related records.
+                </li>
+                <li>
+                  <i>Temporary</i>. Cut off at the end of the fiscal year. Destroy 3 years after
+                  cutoff. Longer retention is authorized if required for statutory or
+                  authoritative reasons, such as directives agreements, contracts, OMB or
+                  GAO requirements, or similar authorities.
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
         <li>
           GSA may maintain data sets developed from the data and store them under the security
           parameters described above so long as GSA removes any personally identifiable
@@ -271,8 +271,7 @@ permalink: /terms/
         </li>
       </ul>
 
-      <a name="touchpoints"></a>
-      <h3>
+      <h3 id="touchpoints">
         3.0 USE OF TOUCHPOINTS
       </h3>
 
@@ -368,8 +367,7 @@ permalink: /terms/
         </li>
       </ul>
 
-      <a name="users"></a>
-      <h3>
+      <h3 id="users">
         4.0 SERVICE PURPOSE AND POTENTIAL USERS
       </h3>
       <p>
@@ -472,8 +470,7 @@ permalink: /terms/
         stakeholders on services will be unavailable.
       </p>
 
-      <a name="benefit"></a>
-      <h3>
+      <h3 id="benefit">
         5.0 SERVICE BENEFIT
       </h3>
       <p>
@@ -512,8 +509,7 @@ permalink: /terms/
         </li>
       </ul>
 
-      <a name="description"></a>
-      <h3>
+      <h3 id="description">
         6.0 SERVICE DETAIL
       </h3>
       <p>
@@ -533,8 +529,7 @@ permalink: /terms/
           The team will respond to customer service inquiries within two (2) business days.
         </li>
       </ul>
-      <a name="funding"></a>
-      <h3>
+      <h3 id="funding">
         7.0 FUNDING
       </h3>
       <p>
@@ -544,8 +539,7 @@ permalink: /terms/
         grows to increase the services provided, GSA may explore a reimbursable service option.
       </p>
 
-      <a name="right-to-limit"></a>
-      <h3>
+      <h3 id="right-to-limit">
         8.0 RIGHT TO LIMIT
       </h3>
       <p>
@@ -566,8 +560,7 @@ permalink: /terms/
         this Agreement.
       </p>
 
-      <a name="termination"></a>
-      <h3>
+      <h3 id="termination">
         9.0 SERVICE TERMINATION
       </h3>
       <p>
@@ -580,8 +573,7 @@ permalink: /terms/
         including, without limitation, warranty disclaimers, indemnity, and limitations of liability.
       </p>
 
-      <a name="changes"></a>
-      <h3>
+      <h3 id="changes">
         10.0 CHANGES
       </h3>
       <p>
@@ -592,8 +584,7 @@ permalink: /terms/
         terms and conditions of this Agreement.
       </p>
 
-      <a name="disclaimer"></a>
-      <h3>
+      <h3 id="disclaimer">
         11.0 DISCLAIMER OF WARRANTIES
       </h3>
       <p>
@@ -603,8 +594,7 @@ permalink: /terms/
         that the services will be error free or that access thereto will be continuous or uninterrupted.
       </p>
 
-      <a name="limited-liability"></a>
-      <h3>
+      <h3 id="limited-liability">
         12.0 LIMITATIONS ON LIABILITY
       </h3>
       <p>
@@ -619,8 +609,7 @@ permalink: /terms/
         corruption of data.
       </p>
 
-      <a name="general-represenations"></a>
-      <h3>
+      <h3 id="general-represenations">
         13.0 GENERAL REPRESENTATIONS
       </h3>
       <p>
@@ -629,8 +618,7 @@ permalink: /terms/
         services will not infringe or misappropriate the intellectual property rights of any third party.
       </p>
 
-      <a name="miscellaneous"></a>
-      <h3>
+      <h3 id="miscellaneous">
         14.0 MISCELLANEOUS
       </h3>
       <p>
@@ -639,8 +627,7 @@ permalink: /terms/
         by the posting of a revised version of this page by GSA.
       </p>
 
-      <a name="no-waiver"></a>
-      <h3>
+      <h3 id="no-waiver">
         15.0 NO WAIVER OF RIGHTS
       </h3>
       <p>
