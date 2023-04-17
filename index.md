@@ -9,10 +9,10 @@ title: Touchpoints
       <div class="tablet:grid-col-6" style="align-items: center; display: flex; justify-content: center;">
         <img src="{{ site.baseurl }}/assets/img/touchpoints-screenshot.jpg" alt="Touchpoints Screenshot" style="margin: 10px 0;">
       </div>
-      <div class="tablet:grid-col-6" style="color: white;">
-        <div class="usa-intro" style="font-size: 2em; margin-top: 18px;">
+      <div class="tablet:grid-col-6 text-white">
+        <h1 class="usa-intro font-serif-xl" style="margin-top: 18px;">
           Making customer feedback easier for federal agencies.
-        </div>
+        </h1>
         <p style="font-size: 1.125em;">
           Touchpoints offers a simple,
           flexible, and convenient way to start collecting customer feedback
