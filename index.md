@@ -19,6 +19,7 @@ title: Touchpoints
           so you can focus on serving your customers rather than managing surveys.
         </p>
         <p style="margin-bottom: 20px;">
+          <a href="{{ site.baseurl }}/assets/files/GSA-Touchpoints-Product-Overview.pdf" class="usa-button usa-button--outline usa-button--inverse" target="_blank" rel="noopener">Download Slides</a>
           <a href="https://touchpoints.app.cloud.gov/users/sign_in" class="usa-button" target="_blank" rel="noopener">Get started</a>
         </p>
       </div>
