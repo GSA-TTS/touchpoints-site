@@ -10,7 +10,7 @@ title: Touchpoints
         <img src="{{ site.baseurl }}/assets/img/touchpoints-screenshot.jpg" alt="Touchpoints Screenshot" style="margin: 10px 0;">
       </div>
       <div class="tablet:grid-col-6 text-white">
-        <h1 class="usa-intro font-serif-xl" style="margin-top: 18px;">
+        <h1 class="usa-intro font-serif-xl">
           Making customer feedback easier for federal agencies.
         </h1>
         <p style="font-size: 1.125em;">
