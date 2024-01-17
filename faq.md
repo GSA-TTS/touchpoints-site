@@ -46,8 +46,8 @@ permalink: /faq/
       <p>
         <a href="mailto:feedback-analytics@gsa.gov">Contact</a>
         the
-        <a href="https://feedback.usa.gov/" target="_blank" rel="noopener">Feedback Analytics</a>
-        team to setup a Demo today.
+        <a href="https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services/tts-solutions" target="_blank" rel="noopener">Touchpoints</a>
+        product team to setup a Demo today.
       </p>
 
       <h3 id="how-does-the-public-submit-feedback">How does the public submit feedback?</h3>
