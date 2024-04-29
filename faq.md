@@ -90,7 +90,7 @@ permalink: /faq/
       </p>
       <p>
         Under guidance from
-        <a href="https://www.whitehouse.gov/wp-content/uploads/2018/06/s280.pdf" target="_blank" rel="noopener">2018 A-11 Circular</a>,
+        <a href="https://www.whitehouse.gov/wp-content/uploads/2018/06/s280.pdf" target="_blank" rel="noopener">OMB A-11 Circular, Section 280</a>,
         High Impact Service Providers (HISPs) participating in the Customer Experience Cross Agency Priority Goal, part of the President’s Management Agenda,
         anonymous customer experience scores may be
         aggregated at the service level and published at
