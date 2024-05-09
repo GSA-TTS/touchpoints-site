@@ -32,7 +32,7 @@
       alert('hi, tp modal is opening');
 
       dataLayer.push({
-        'event': 'customEvent',
+        'event': 'dap_event',
         'eventCategory': 'touchpoints',
         'eventAction': 'onTouchpointsModalOpen',
         'eventLabel': 'label'
@@ -46,7 +46,7 @@
       // ga('send', 'event', 'touchpoints', 'modalOpen', 'label');
 
       dataLayer.push({
-        'event': 'customEvent',
+        'event': 'dap_event',
         'eventCategory': 'touchpoints',
         'eventAction': 'onTouchpointsModalClose',
         'eventLabel': 'label'
@@ -57,7 +57,7 @@
 
     document.addEventListener('onTouchpointsFormSubmission', function() {
       dataLayer.push({
-        'event': 'customEvent',
+        'event': 'dap_event',
         'eventCategory': 'touchpoints',
         'eventAction': 'onTouchpointsFormSubmission',
         'eventLabel': 'label'
