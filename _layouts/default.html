@@ -23,5 +23,49 @@
   src="{{ site.baseurl }}/assets/js/jquery-3.6.0.min.js"
   ></script>
   <script src="{{ "/assets/uswds/js/uswds.min.js" | relative_url }}"></script>
+
+  <script>
+    document.addEventListener('onTouchpointsModalOpen', function() {
+      // ga('send', 'event', 'category', 'action', 'label');
+      // ga('send', 'event', 'touchpoints', 'modalOpen', 'label');
+
+      alert('hi, tp modal is opening');
+
+      dataLayer.push({
+        'event': 'customEvent',
+        'eventCategory': 'touchpoints',
+        'eventAction': 'onTouchpointsModalOpen',
+        'eventLabel': 'label'
+      });
+
+      console.log("fired onTouchpointsModalOpen")
+    });
+
+    document.addEventListener('onTouchpointsModalClose', function() {
+      // ga('send', 'event', 'category', 'action', 'label');
+      // ga('send', 'event', 'touchpoints', 'modalOpen', 'label');
+
+      dataLayer.push({
+        'event': 'customEvent',
+        'eventCategory': 'touchpoints',
+        'eventAction': 'onTouchpointsModalClose',
+        'eventLabel': 'label'
+      });
+
+      console.log("fired onTouchpointsModalClose")
+    });
+
+    document.addEventListener('onTouchpointsFormSubmission', function() {
+      dataLayer.push({
+        'event': 'customEvent',
+        'eventCategory': 'touchpoints',
+        'eventAction': 'onTouchpointsFormSubmission',
+        'eventLabel': 'label'
+      });
+
+      console.log("fired onTouchpointsFormSubmission")
+    });
+
+  </script>
 </body>
 </html>
