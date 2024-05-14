@@ -25,45 +25,68 @@
   <script src="{{ "/assets/uswds/js/uswds.min.js" | relative_url }}"></script>
 
   <script>
-    document.addEventListener('onTouchpointsModalOpen', function() {
-      // ga('send', 'event', 'category', 'action', 'label');
-      // ga('send', 'event', 'touchpoints', 'modalOpen', 'label');
-
-      alert('hi, tp modal is opening');
-
+    document.addEventListener('onTouchpointsFormLoaded', function() {
       dataLayer.push({
         'event': 'dap_event',
         'eventCategory': 'touchpoints',
-        'eventAction': 'onTouchpointsModalOpen',
-        'eventLabel': 'label'
+        'eventAction': 'onTouchpointsFormLoaded'
       });
+    });
 
-      console.log("fired onTouchpointsModalOpen")
+    document.addEventListener('onTouchpointsModalOpen', function() {
+      dataLayer.push({
+        'event': 'dap_event',
+        'eventCategory': 'touchpoints',
+        'eventAction': 'onTouchpointsModalOpen'
+      });
     });
 
     document.addEventListener('onTouchpointsModalClose', function() {
-      // ga('send', 'event', 'category', 'action', 'label');
-      // ga('send', 'event', 'touchpoints', 'modalOpen', 'label');
-
       dataLayer.push({
         'event': 'dap_event',
         'eventCategory': 'touchpoints',
-        'eventAction': 'onTouchpointsModalClose',
-        'eventLabel': 'label'
+        'eventAction': 'onTouchpointsModalClose'
       });
-
-      console.log("fired onTouchpointsModalClose")
     });
 
     document.addEventListener('onTouchpointsFormSubmission', function() {
       dataLayer.push({
         'event': 'dap_event',
         'eventCategory': 'touchpoints',
-        'eventAction': 'onTouchpointsFormSubmission',
-        'eventLabel': 'label'
+        'eventAction': 'onTouchpointsFormSubmission'
       });
+    });
 
-      console.log("fired onTouchpointsFormSubmission")
+    document.addEventListener('onTouchpointsFormSubmissionSuccess', function() {
+      dataLayer.push({
+        'event': 'dap_event',
+        'eventCategory': 'touchpoints',
+        'eventAction': 'onTouchpointsFormSubmissionSuccess'
+      });
+    });
+
+    document.addEventListener('onTouchpointsFormSubmissionError', function() {
+      dataLayer.push({
+        'event': 'dap_event',
+        'eventCategory': 'touchpoints',
+        'eventAction': 'onTouchpointsFormSubmissionError'
+      });
+    });
+
+    document.addEventListener('onTouchpointsFormNextPage', function() {
+      dataLayer.push({
+        'event': 'dap_event',
+        'eventCategory': 'touchpoints',
+        'eventAction': 'onTouchpointsFormNextPage'
+      });
+    });
+
+    document.addEventListener('onTouchpointsFormPreviousPage', function() {
+      dataLayer.push({
+        'event': 'dap_event',
+        'eventCategory': 'touchpoints',
+        'eventAction': 'onTouchpointsFormPreviousPage'
+      });
     });
 
   </script>
