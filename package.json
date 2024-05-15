@@ -20,11 +20,11 @@
     "prepare": "npm run snyk-protect"
   },
   "dependencies": {
-    "snyk": "^1.1071.0",
-    "uswds": "^2.13.3"
+    "snyk": "^1.1291.0",
+    "uswds": "^2.14.0"
   },
   "snyk": true,
   "devDependencies": {
-    "@uswds/compile": "^1.0.0-beta.3"
+    "@uswds/compile": "^1.1.0"
   }
 }
