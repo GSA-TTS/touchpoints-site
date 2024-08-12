@@ -65,28 +65,19 @@ permalink: /terms/
         ADMINISTERED BY THE U.S. GENERAL SERVICES ADMINISTRATION
       </p>
       <p>
-      Version 1.0, updated: 03/11/2022
+      Version 1.1, updated: 08/12/2024
       </p>
       <h3 id="summary">
-        1.0 SERVICE SUMMARY
+        1.1 SERVICE SUMMARY
       </h3>
       <p>
-        “Touchpoints” is an open-source software application created and maintained by the U.S.
-        General Services Administration (GSA) provided to agencies at no-cost for the terms of service
-        outlined in this document. Touchpoints enables government agencies to solicit and process
-        user feedback to support the continuous improvement of public systems, services, processes,
-        and policies.
+        “Touchpoints” is an open-source software application created and maintained by the U.S. General Services Administration (GSA) provided to agencies at no-cost for the terms of service outlined in this document. Touchpoints enables government agencies to solicit and process user feedback to support the continuous improvement of public systems, services, processes, and policies.
       </p>
       <p>
-        The following terms of service (“Terms”) governing GSA’s Touchpoints website and services,
-        including the content, documentation, code, and related materials are offered subject to your
-        acceptance of the Terms, as well as any relevant sections of the Touchpoints Site Policies
-        (collectively, the “Agreement”). Access to or use of Touchpoints services or its content
-        constitutes acceptance to this Agreement.
+        The following terms of service (“Terms”) governing GSA’s Touchpoints website and services, including the content, documentation, code, and related materials are offered subject to your acceptance of the Terms, as well as any relevant sections of the Touchpoints Site Policies (collectively, the “Agreement”). Access to or use of Touchpoints services or its content constitutes acceptance to this Agreement.
       </p>
       <p>
-        Initially, Touchpoints is for use by High Impact Service Providers and other agencies beginning
-        to collect customer feedback in line with OMB Circular A-11 Section 280.
+        Initially, Touchpoints is for use by High Impact Service Providers and other agencies beginning to collect customer feedback in line with <a href="https://www.federalregister.gov/documents/2019/07/03/2019-14217/information-collection-improving-customer-experience-implementation-of-section-280-of-omb-circular" target="_blank" rel="noopener">OMB A-11 Circular, Section 280</a> 
       </p>
       <h3 id="data-use">
         2.0 DATA COLLECTION, USE, AND SECURITY
@@ -94,71 +85,21 @@ permalink: /terms/
       <h4>
         2.1 REPORTING AND DATA MANAGEMENT
       </h4>
-      <ul>
-        <li>
-          Touchpoints collects customer feedback submissions as they’re submitted in the
-          application as a table.
-          You can export this raw data as a .CSV file and use for their own
-          analysis purposes.
-        </li>
-        <li>
-          Two weeks prior to each quarterly reporting deadline for FY19 and FY20 (or the current
-          reporting schedule as defined in A-11 guidance), Feedback Analytics program staff will
-          contact each HISP, request they review their data for the previous reporting period and
-          ask the agency to submit any additional qualitative details, transactional context, or
-          other data elements required by OMB.
-        </li>
-        <li>
-          Following review, HISPs will need to approve their data as ready for submission to OMB.
-          For now, the approval process will be communicated by the Feedback Analytics team to
-          HISP staff via email. Touchpoints will pursue development of an automated mechanism
-          for HISPs to mark their data approved for submission to OMB.
-        </li>
-        <li>
-          Once approved by agency, the Feedback Analytics team will submit certified data to
-          OMB on its behalf on or before the day of the submission deadline.
-        </li>
-        <li>
-          The Feedback Analytics team will continue to investigate ways to automate, streamline,
-          and reduce the reporting burden for agencies while still giving them the ability to certify
-          their data before it is reported.
-        </li>
-      </ul>
+        * Touchpoint Submissions are stored in a database table.
+        * Submissions data is available in real-time and can be viewed in Touchpoints, exported to .CSV, or accessed via a .json [API](https://github.com/GSA/touchpoints/wiki/API), for review and analysis.
+        * Instructions on [submitting a quarterly OMB CX Data collection](https://github.com/GSA/touchpoints/wiki/Data-Collections) and information on the [data collection rating](https://github.com/GSA/touchpoints/wiki/Data-Collection-Rating) can  be found on Touchpoints Wiki.
 
       <h4>
         2.2 SECURITY
       </h4>
 
-      <ul>
-        <li>
-          Touchpoints is covered by a FIPS 199 Moderate ATO.
-          Details can be found in the Touchpoints System Security Plan (SSP) document.
-          Agencies may request a copy of the SSP by contacting the Touchpoints team at
-          <a href="mailto:feedback-analytics@gsa.gov">feedback-analytics@gsa.gov</a>.
-        </li>
-        <li>
-          Data is encrypted via HTTPS while in transit.
-        </li>
-        <li>
-          Data is encrypted in cloud.gov’s database at rest through the Amazon Relational
-          Database Service (RDS).
-        </li>
-        <li>
-          Users are logged out of the Touchpoints application after 15 minutes of inactivity
-        </li>
-        <li>
-          Touchpoints uses a variety of security methods to protect this U.S. government service
-          and agency data to ensure the service remains available to all users. These methods
-          include monitoring and recording network traffic (any data going in and out of
-          Touchpoints) to identify unauthorized attempts to change information or otherwise
-          cause damage.
-        </li>
-        <li>
-          Unauthorized access or use of Touchpoints (e.g. use for criminal purposes or to cause
-          damage) is against the law, and may subject individuals to criminal prosecution and
-          penalties.
-        </li>
-      </ul>
+    * Touchpoints is covered by a Federal Information Processing Standards (FIPS) 199 Moderate ATO. Details can be found in the Touchpoints System Security Plan (SSP) document. Agencies may request a copy of the SSP by contacting the Touchpoints team at feedback-analytics@gsa.gov.
+    * Data is encrypted via HTTPS while in transit.
+    * Data is encrypted in cloud.gov’s database at rest through the Amazon Relational Database Service (RDS).
+    * Users are logged out of the Touchpoints application after 30 minutes of inactivity
+    * Touchpoints uses multiple security methods to protect this U.S. government service and agency data to ensure the service remains available to all users. These methods include monitoring and recording network traffic (any data going in and out of Touchpoints) to identify unauthorized attempts to change information or otherwise cause damage.
+    * Unauthorized access or use of Touchpoints (e.g. use for criminal purposes or to cause damage) is against the law, and may subject individuals to criminal prosecution and penalties.
+
 
       <h4>
         2.3 DATA PRIVACY AND MANAGEMENT
@@ -192,11 +133,8 @@ permalink: /terms/
         </li>
         <li>
           Touchpoints provides the ability for agency Service Managers to “flag” survey
-          submissions in the event they contain spam, irrelevant, or abusive content. Flagged
-          responses will be omitted from the online Submissions table viewable in Touchpoints,
-          and excluded from downloadable CSV reports. Records of these submissions may be
-          retained by GSA in audit logs for security compliance and applicable data retention
-          policies.
+          submissions in the event they contain spam, irrelevant, or abusive content. Records of these submissions may be retained by GSA in audit logs for security compliance and applicable data retention policies.
+
         </li>
         <li>
           GSA will retain survey instrument and submission data as advised in the following record
@@ -304,68 +242,19 @@ permalink: /terms/
         <i>Set-up</i>
       </p>
 
-      <ul>
-        <li>
-          Each HISP is entitled to up to 3 A-11 form survey collections through Touchpoints in
-          FY19 and FY20, with an unlimited amount of responses.
-        </li>
-        <li>
-          At this time, Touchpoints generates a survey URL for distribution to customers (e.g, via
-          an agency’s email servers or social media accounts), on a kiosk (via agency-owned
-          hardware such as tablets, phones, or computers available at service centers) or
-          embedded in a website online. In the future, Touchpoints will explore methods for
-          receiving submission via other feedback channels or accepting feedback from manually
-          administered surveys.
-        </li>
-        <li>
-          A-11 surveys administered in Touchpoints are limited to:
-          <ul>
-            <li>
-              No more than 12 survey questions in total per survey: seven (7) A-11 questions +
-              two (2) free response + approximately (3) custom questions
-              <ul>
-                <li>
-                  "Custom Questions" must be limited to questions that would be
-                  considered a non-substantive, non-sensitive question related to
-                  operational information that helps to put the customer feedback into a
-                  useable context for the agency. This could include asking which service
-                  center location was visited, or which service or inquiry type the
-                  interaction was related to. The Feedback Analytics team reserves the
-                  right to deem whether a question is appropriate under the PRA clearance
-                  that GSA operates for this tool.
-                </li>
-              </ul>
-            </li>
-            <li>
-              Seven (7) question language can be altered for relevancy to point of
-              interaction/channel (e.g., questions on employee interaction can be removed for
-              interactions that are self-service / web-based touchpoints)
-            </li>
-          </ul>
-        </li>
-        <li>
-          Agency customers will be required to provide the Feedback Analytics team with
-          information needed in order to develop PRA supporting statements. The Feedback
-          Analytics team will provide this form, review agency completed information, and submit
-          for PRA clearance via the GSA A-11 generic government-wide clearance.
-        </li>
-        <li>
-          Agencies will be provided with the final PRA supporting statements for their records, but
-          are not required to submit these documents. GSA will assume the burden hours and
-          manage all ICR approvals, updates, and renewals for the A-11 form in Touchpoints. The
-          Feedback Analytics team will insert the OMB control number into the survey
-          instrument.
-        </li>
-        <li>
-          Agencies will need to notify the Feedback Analytics team if they wish to make any
-          changes to the information collection. This would include any change to the instrument
-          itself (e.g., question wording), or the delivery mechanism (e.g., potential sample) that
-          would result in changes to the clearance of the information collection.
-        </li>
-        <li>
-          The GSA RegSec team will review internal GSA PRA within five (5) business days.
-        </li>
-      </ul>
+     * Touchpoints generates a public survey URL that customers can access (e.g, via an agency’s email servers or social media accounts), on a kiosk (via agency-owned hardware such as tablets, phones, or computers available at service centers) or embedded in a website online. 
+      * In 2023, the  A-11 survey was updated as a simplified, more user-friendly revision to the original A-11 survey. The second version of the A-11 survey presents 3 questions to the user;
+          1. A thumps up/down button with the statement that states "Based on my experience [interacting with HISP Service], I trust [HISP] to deliver on their mission for the American public
+          2. A multiple choice question that asks “ What about this interaction made the difference”.
+          3. Open-ended question with the statement below that states “Anything else you want us to know about your experience?” 
+    * A-11 surveys administered in Touchpoints are limited to
+        - No more than 20  survey questions in total per survey.
+        - "Custom Questions" must be limited to questions that would be considered a non-substantive, non-sensitive question related to operational information that helps to put the customer feedback into a useable context for the agency. This could include asking which service center location was visited, or which service or inquiry type the interaction was related to. The Feedback Analytics team reserves the right to deem whether a question is appropriate under the PRA clearance that GSA operates for this tool.
+        - Agencies should use the statement provided for the required three (3) questions and make only minor edits. Any requested modifications to the wording of these statements must first be discussed with OMB prior to implementation in order to maintain reporting comparability government-wide. Agency customers will be required to provide the Feedback Analytics team with information needed in order to develop PRA supporting statements. The Feedback Analytics team will provide this form, review agency completed information, and submit for PRA clearance via the GSA A-11 generic government-wide clearance.
+    * Agencies will be provided with the final PRA supporting statements for their records, but are not required to submit these documents. GSA will assume the burden hours and manage all ICR approvals, updates, and renewals for the A-11 form in Touchpoints. The Feedback Analytics team will insert the OMB control number into the survey instrument.
+    * Agencies will need to notify the Feedback Analytics team if they wish to make any changes to the information collection. This would include any change to the instrument itself (e.g., question wording), or the delivery mechanism (e.g., potential sample) that would result in changes to the clearance of the information collection.
+    * The GSA RegSec team will review internal GSA PRA within five (5) business days.
+
 
       <h3 id="users">
         4.0 SERVICE PURPOSE AND POTENTIAL USERS
@@ -381,16 +270,13 @@ permalink: /terms/
 
       <ul>
         <li>
-          Overall: (1) Satisfaction, (2) Confidence/Trust
+          Service Quality (1) Service Effectiveness/Perception of Value
         </li>
         <li>
-          Service: (3) Quality
+          Process: (2) Ease/Simplicity, (3) Efficiency/Speed, (4) Equity/Transparency
         </li>
         <li>
-          Process: (4) Ease/Simplicity, (5) Efficiency/Speed, (6) Equity/Transparency
-        </li>
-        <li>
-          People: (7) Employee Helpfulness
+          People: (5) Employee Interaction/ Warmth/ Helpfulness/ Competence
         </li>
       </ul>
 
