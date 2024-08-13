@@ -194,7 +194,6 @@ permalink: /terms/
                   mandates, or similar authorities.
                 </li>
               </ul>
-            </li>
             <li>
               352.2/021 – Information Service Program Management Records
               (DAA-0352-2016-0001-0005)
@@ -215,7 +214,6 @@ permalink: /terms/
               </ul>
             </li>
              </ul>
-        </li>
        <li>
           GSA may maintain data sets developed from the data and store them under the security
           parameters described above so long as GSA removes any personally identifiable
@@ -543,5 +541,5 @@ permalink: /terms/
         waiver of such right or provision.
       </p>  
       <br>
-    </div>
+  
  
