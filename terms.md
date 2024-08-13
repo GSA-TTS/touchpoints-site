@@ -90,10 +90,10 @@ permalink: /terms/
      Touchpoint Submissions are stored in a database table.
            </li>
         <li>
-    Submissions data is available in real-time and can be viewed in Touchpoints, exported to .CSV, or accessed via a .json <a href="https://github.com/GSA/touchpoints/wiki/API"target="_blank" rel="noopener">API</a>, for review and analysis.
+    Submissions data is available in real-time and can be viewed in Touchpoints, exported to .CSV, or accessed via a .json <a href="https://github.com/GSA/touchpoints/wiki/API" target="_blank" rel="noopener">API</a>, for review and analysis.
            </li>
         <li>
-    Instructions on <a href="https://www.github.com/GSA/touchpoints/wiki/Data-Collection-Rating" target="_blank" rel="noopener">submitting a quarterly OMB CX Data collection</a>  and information on the <a href="https://github.com/GSA/touchpoints/wiki/Data-Collection-Rating"target="_blank" rel="noopener">data collection rating</a> can  be found on Touchpoint's Wiki.
+    Instructions on <a href="https://www.github.com/GSA/touchpoints/wiki/Data-Collection-Rating" target="_blank" rel="noopener">submitting a quarterly OMB CX Data collection</a>  and information on the <a href="https://www.github.com/GSA/touchpoints/wiki/Data-Collection-Rating" target="_blank" rel="noopener">data collection rating</a> can  be found on Touchpoint's Wiki.
 </li>
         </ul>
       <h4>
