@@ -212,8 +212,7 @@ permalink: /terms/
                   GAO requirements, or similar authorities.
                 </li>
               </ul>
-            </li>
-             </ul>
+       </ul>
        <li>
           GSA may maintain data sets developed from the data and store them under the security
           parameters described above so long as GSA removes any personally identifiable
@@ -295,7 +294,8 @@ permalink: /terms/
               </li>
             <li>
     The GSA RegSec team will review internal GSA PRA within five (5) business days.
-      </ul>    
+       </li>
+       </ul>  
       <h3 id="users">
         4.0 SERVICE PURPOSE AND POTENTIAL USERS
       </h3>
