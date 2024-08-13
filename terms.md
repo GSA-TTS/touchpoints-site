@@ -198,7 +198,7 @@ permalink: /terms/
             <li>
               352.2/021 – Information Service Program Management Records
               (DAA-0352-2016-0001-0005)
-              <ul>
+             <ul>
                 <li>
                   This series of records is concerned with creating and managing an
                   information resource (e.g., Data.gov and USA.gov) for use or reference by
@@ -214,9 +214,9 @@ permalink: /terms/
                 </li>
               </ul>
             </li>
-          </ul>
+             </ul>
         </li>
-        <li>
+       <li>
           GSA may maintain data sets developed from the data and store them under the security
           parameters described above so long as GSA removes any personally identifiable
           information, confidential or sensitive information from such data sets (as defined by the
@@ -437,7 +437,7 @@ permalink: /terms/
         <i>
           Administration
         </i>
-      </p>
+      </p> 
       <ul>
         <li>
           Agency users can contact the Feedback Analytics team at
@@ -543,7 +543,5 @@ permalink: /terms/
         waiver of such right or provision.
       </p>  
       <br>
-      <br>
     </div>
-  </div>
-</div>
+ 
