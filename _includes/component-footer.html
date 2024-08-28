@@ -53,6 +53,13 @@
           'eventAction': 'was_this_page_helpful',
           'eventLabel': 'yes'
         });
+
+        dataLayer.push({
+          'event': 'dap_event',
+          'event_category': 'cx_feedback',
+          'event_action': 'was_this_page_helpful',
+          'event_label': 'yes'
+        });
     });
 
     noButton.addEventListener('click', (event) => {
@@ -68,6 +75,13 @@
           'eventCategory': 'cx_feedback',
           'eventAction': 'was_this_page_helpful',
           'eventLabel': 'no'
+        });
+
+        dataLayer.push({
+          'event': 'dap_event',
+          'event_category': 'cx_feedback',
+          'event_action': 'was_this_page_helpful',
+          'event_label': 'no'
         });
     });
   });
