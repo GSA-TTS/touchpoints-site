@@ -46,6 +46,13 @@
           'reason' : 'reasonYes',
           'section' : 'sectionYes',
         })
+
+        dataLayer.push({
+          'event': 'dap_event',
+          'eventCategory': 'cx_feedback',
+          'eventAction': 'was_this_page_helpful',
+          'eventLabel': 'yes'
+        });
     });
 
     noButton.addEventListener('click', (event) => {
@@ -55,6 +62,13 @@
           'reason' : 'reasonNo',
           'section' : 'sectionNoo',
         })
+
+        dataLayer.push({
+          'event': 'dap_event',
+          'eventCategory': 'cx_feedback',
+          'eventAction': 'was_this_page_helpful',
+          'eventLabel': 'no'
+        });
     });
   });
 </script>
