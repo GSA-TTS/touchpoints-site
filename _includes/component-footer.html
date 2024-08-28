@@ -34,55 +34,58 @@
     });
   }
 
-  document.addEventListener('onTouchpointsFormLoaded', () => {
-    console.log("onTouchpointsFormLoaded")
-    const yesButton = document.querySelector('input.usa-button[value="yes"]');
-    const noButton = document.querySelector('input.usa-button[value="no"]');
+  document.addEventListener('onTouchpointsFormLoaded', (e) => {
+    // load for a specific form
+    if (e.detail && e.detail.formComponent.formComponent().getAttribute("data-touchpoints-form-id") === '0efb2db6' ) {
+      console.log("onTouchpointsFormLoaded")
+      const yesButton = document.querySelector('input.usa-button[value="yes"]');
+      const noButton = document.querySelector('input.usa-button[value="no"]');
 
-    yesButton.addEventListener('click', (event) => {
-        event.preventDefault();
-        gas4('was_this_page_helpful', {
-          'choice' : 'yes',
-          'reason' : 'reasonYes',
-          'section' : 'sectionYes',
-        })
+      yesButton.addEventListener('click', (event) => {
+         event.preventDefault();
+          gas4('was_this_page_helpful', {
+            'choice' : 'yes',
+            'reason' : 'reasonYes',
+            'section' : 'sectionYes',
+          })
 
-        dataLayer.push({
-          'event': 'dap_event',
-          'eventCategory': 'cx_feedback',
-          'eventAction': 'was_this_page_helpful',
-          'eventLabel': 'yes'
-        });
+          dataLayer.push({
+            'event': 'dap_event',
+            'eventCategory': 'cx_feedback',
+            'eventAction': 'was_this_page_helpful',
+            'eventLabel': 'yes'
+          });
 
-        dataLayer.push({
-          'event': 'dap_event',
-          'event_category': 'cx_feedback',
-          'event_action': 'was_this_page_helpful',
-          'event_label': 'yes'
-        });
-    });
+          dataLayer.push({
+            'event': 'dap_event',
+            'event_category': 'cx_feedback',
+            'event_action': 'was_this_page_helpful',
+            'event_label': 'yes'
+          });
+      });
 
-    noButton.addEventListener('click', (event) => {
-        event.preventDefault();
-        gas4('was_this_page_helpful', {
-          'choice' : 'no',
-          'reason' : 'reasonNo',
-          'section' : 'sectionNoo',
-        })
+      noButton.addEventListener('click', (event) => {
+          event.preventDefault();
+          gas4('was_this_page_helpful', {
+            'choice' : 'no',
+            'reason' : 'reasonNo',
+            'section' : 'sectionNoo',
+          })
 
-        dataLayer.push({
-          'event': 'dap_event',
-          'eventCategory': 'cx_feedback',
-          'eventAction': 'was_this_page_helpful',
-          'eventLabel': 'no'
-        });
+          dataLayer.push({
+            'event': 'dap_event',
+            'eventCategory': 'cx_feedback',
+            'eventAction': 'was_this_page_helpful',
+            'eventLabel': 'no'
+          });
 
-        dataLayer.push({
-          'event': 'dap_event',
-          'event_category': 'cx_feedback',
-          'event_action': 'was_this_page_helpful',
-          'event_label': 'no'
-        });
-    });
+          dataLayer.push({
+            'event': 'dap_event',
+            'event_category': 'cx_feedback',
+            'event_action': 'was_this_page_helpful',
+            'event_label': 'no'
+          });
+      });
+    }
   });
 </script>
