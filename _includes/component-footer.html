@@ -10,3 +10,51 @@
   </div>
 </footer>
 <script src="https://touchpoints.app.cloud.gov/touchpoints/0efb2db6.js" async></script>
+
+<script>
+  function setTouchpointsListeners() {
+    document.addEventListener('onTouchpointsModalClose', function() {
+        console.log("fired onTouchpointsModalClose")
+    });
+
+    document.addEventListener('onTouchpointsModalOpen', function() {
+      console.log("fired onTouchpointsModalOpen")
+    });
+
+    document.addEventListener('onTouchpointsFormSubmission', function() {
+      console.log("fired onTouchpointsFormSubmission")
+    });
+
+    document.addEventListener('onTouchpointsFormPreviousPage', function(e) {
+      console.log("fired onTouchpointsFormPreviousPage", e.page)
+    });
+
+    document.addEventListener('onTouchpointsFormNextPage', function(e) {
+      console.log("fired onTouchpointsFormNextPage", e.page)
+    });
+  }
+
+  document.addEventListener('onTouchpointsFormLoaded', () => {
+    console.log("onTouchpointsFormLoaded")
+    const yesButton = document.querySelector('input.usa-button[value="yes"]');
+    const noButton = document.querySelector('input.usa-button[value="no"]');
+
+    yesButton.addEventListener('click', (event) => {
+        event.preventDefault();
+        gas4('was_this_page_helpful', {
+          'choice' : 'yes',
+          'reason' : 'reasonYes',
+          'section' : 'sectionYes',
+        })
+    });
+
+    noButton.addEventListener('click', (event) => {
+        event.preventDefault();
+        gas4('was_this_page_helpful', {
+          'choice' : 'no',
+          'reason' : 'reasonNo',
+          'section' : 'sectionNoo',
+        })
+    });
+  });
+</script>
