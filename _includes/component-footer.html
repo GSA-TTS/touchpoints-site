@@ -52,23 +52,18 @@
           gas4('was_this_page_helpful', { // standard DAP gas4
             'event_category': 'cx_feedback',
             'event_action': 'was_this_page_helpful2',
-            'event_label': 'yes'
+            'event_label': 'yes',
+            'value': true
           })
 
           // GTM implementations require custom configuration
           // TODO: document and reference configuration; handling browser events in GTM, then emitting them to GA/DAP
-          dataLayer.push({ // GTM camel-case
-            'event': 'dap_event',
-            'eventCategory': 'cx_feedback',
-            'eventAction': 'was_this_page_helpfulGtm',
-            'eventLabel': true
-          });
-
           dataLayer.push({  // GTM snake_cased
             'event': 'dap_event',
             'event_category': 'cx_feedback',
             'event_action': 'was_this_page_helpful_gtm',
-            'event_label': 'yes'
+            // 'event_label': 'yes',
+            'value': true
           });
       });
 
@@ -83,21 +78,16 @@
           gas4('was_this_page_helpful', {
             'eventCategory': 'cx_feedback',
             'eventAction': 'was_this_page_helpful2',
-            'eventLabel': 'no'
+            'eventLabel': 'no',
+            'value': 'false'
           })
-
-          dataLayer.push({
-            'event': 'dap_event',
-            'eventCategory': 'cx_feedback',
-            'eventAction': 'was_this_page_helpfulGtm',
-            'eventLabel': false
-          });
 
           dataLayer.push({
             'event': 'dap_event',
             'event_category': 'cx_feedback',
             'event_action': 'was_this_page_helpful_gtm',
-            'event_label': 'no'
+            // 'event_label': 'no',
+            'value': false
           });
       });
     }
