@@ -38,57 +38,25 @@
     // load for a specific form
     if (e.detail && e.detail.formComponent.formComponent().getAttribute("data-touchpoints-form-id") === '0efb2db6' ) {
       console.log("onTouchpointsFormLoaded")
-      const yesButton = document.querySelector('input.usa-button[value="yes"]');
-      const noButton = document.querySelector('input.usa-button[value="no"]');
+      const yesButton = e.detail.formComponent.formComponent().querySelector('input.usa-button[value="yes"]');
+      const noButton = e.detail.formComponent.formComponent().querySelector('input.usa-button[value="no"]');
 
       yesButton.addEventListener('click', (event) => {
          event.preventDefault();
-          gas4('was_this_page_helpful', { // suggested DAP gas4
-            'choice' : 'yes',
-            'reason' : 'reasonYes',
-            'section' : 'sectionYes',
-          })
-
-          gas4('was_this_page_helpful', { // standard DAP gas4
+          gas4('was_this_helpful_submit', {
             'event_category': 'cx_feedback',
             'event_action': 'was_this_page_helpful2',
-            'event_label': 'yes',
-            'value': true
+            'event_label': "yes",
           })
-
-          // GTM implementations require custom configuration
-          // TODO: document and reference configuration; handling browser events in GTM, then emitting them to GA/DAP
-          dataLayer.push({  // GTM snake_cased
-            'event': 'dap_event',
-            'event_category': 'cx_feedback',
-            'event_action': 'was_this_page_helpful_gtm',
-            // 'event_label': 'yes',
-            'value': true
-          });
       });
 
       noButton.addEventListener('click', (event) => {
           event.preventDefault();
-          gas4('was_this_page_helpful', {
-            'choice' : 'no',
-            'reason' : 'reasonNo',
-            'section' : 'sectionNoo',
-          })
-
-          gas4('was_this_page_helpful', {
-            'eventCategory': 'cx_feedback',
-            'eventAction': 'was_this_page_helpful2',
-            'eventLabel': 'no',
-            'value': 'false'
-          })
-
-          dataLayer.push({
-            'event': 'dap_event',
+          gas4('was_this_helpful_submit', {
             'event_category': 'cx_feedback',
-            'event_action': 'was_this_page_helpful_gtm',
-            // 'event_label': 'no',
-            'value': false
-          });
+            'event_action': 'was_this_page_helpful2',
+            'event_label': "no",
+          })
       });
     }
   });
