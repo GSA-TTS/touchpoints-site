@@ -43,23 +43,31 @@
 
       yesButton.addEventListener('click', (event) => {
          event.preventDefault();
-          gas4('was_this_page_helpful', {
+          gas4('was_this_page_helpful', { // suggested DAP gas4
             'choice' : 'yes',
             'reason' : 'reasonYes',
             'section' : 'sectionYes',
           })
 
-          dataLayer.push({
+          gas4('was_this_page_helpful', { // standard DAP gas4
+            'event_category': 'cx_feedback',
+            'event_action': 'was_this_page_helpful2',
+            'event_label': 'yes'
+          })
+
+          // GTM implementations require custom configuration
+          // TODO: document and reference configuration; handling browser events in GTM, then emitting them to GA/DAP
+          dataLayer.push({ // GTM camel-case
             'event': 'dap_event',
             'eventCategory': 'cx_feedback',
-            'eventAction': 'was_this_page_helpful',
-            'eventLabel': 'yes'
+            'eventAction': 'was_this_page_helpfulGtm',
+            'eventLabel': true
           });
 
-          dataLayer.push({
+          dataLayer.push({  // GTM snake_cased
             'event': 'dap_event',
             'event_category': 'cx_feedback',
-            'event_action': 'was_this_page_helpful',
+            'event_action': 'was_this_page_helpful_gtm',
             'event_label': 'yes'
           });
       });
@@ -72,17 +80,23 @@
             'section' : 'sectionNoo',
           })
 
+          gas4('was_this_page_helpful', {
+            'eventCategory': 'cx_feedback',
+            'eventAction': 'was_this_page_helpful2',
+            'eventLabel': 'no'
+          })
+
           dataLayer.push({
             'event': 'dap_event',
             'eventCategory': 'cx_feedback',
-            'eventAction': 'was_this_page_helpful',
-            'eventLabel': 'no'
+            'eventAction': 'was_this_page_helpfulGtm',
+            'eventLabel': false
           });
 
           dataLayer.push({
             'event': 'dap_event',
             'event_category': 'cx_feedback',
-            'event_action': 'was_this_page_helpful',
+            'event_action': 'was_this_page_helpful_gtm',
             'event_label': 'no'
           });
       });
