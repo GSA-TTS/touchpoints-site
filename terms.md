@@ -77,7 +77,7 @@ permalink: /terms/
         The following terms of service (“Terms”) governing GSA’s Touchpoints website and services, including the content, documentation, code, and related materials are offered subject to your acceptance of the Terms, as well as any relevant sections of the Touchpoints Site Policies (collectively, the “Agreement”). Access to or use of Touchpoints services or its content constitutes acceptance to this Agreement.
       </p>
       <p>
-        Initially, Touchpoints is for use by High Impact Service Providers and other agencies beginning to collect customer feedback in line with <a href="https://www.federalregister.gov/documents/2019/07/03/2019-14217/information-collection-improving-customer-experience-implementation-of-section-280-of-omb-circular" target="_blank" rel="noopener">OMB A-11 Circular, Section 280</a> 
+        Initially, Touchpoints is for use by High Impact Service Providers and other agencies beginning to collect customer feedback in line with <a href="https://www.federalregister.gov/documents/2019/07/03/2019-14217/information-collection-improving-customer-experience-implementation-of-section-280-of-omb-circular" target="_blank" rel="noopener">OMB A-11 Circular, Section 280</a>
       </p>
       <h3 id="data-use">
         2.0 DATA COLLECTION, USE, AND SECURITY
@@ -85,7 +85,7 @@ permalink: /terms/
       <h4>
         2.1 REPORTING AND DATA MANAGEMENT
       </h4>
-      
+
     * Touchpoint Submissions are stored in a database table.
     * Submissions data is available in real-time and can be viewed in Touchpoints, exported to .CSV, or accessed via a .json <a href="https://github.com/GSA/touchpoints/wiki/API"target="_blank" rel="noopener">API</a>, for review and analysis.
     * Instructions on <a href="https://github.com/GSA/touchpoints/wiki/Data-Collection-Rating" target="_blank" rel="noopener">submitting a quarterly OMB CX Data collection</a>  and information on the <a href="https://github.com/GSA/touchpoints/wiki/Data-Collection-Rating" target="_blank" rel="noopener">data collection rating</a> can  be found on Touchpoints Wiki.
@@ -98,6 +98,7 @@ permalink: /terms/
     * Data is encrypted via HTTPS while in transit.
     * Data is encrypted in cloud.gov’s database at rest through the Amazon Relational Database Service (RDS).
     * Users are logged out of the Touchpoints application after 30 minutes of inactivity
+    * User accounts are deactivated after 90 days of inactivity
     * Touchpoints uses multiple security methods to protect this U.S. government service and agency data to ensure the service remains available to all users. These methods include monitoring and recording network traffic (any data going in and out of Touchpoints) to identify unauthorized attempts to change information or otherwise cause damage.
     * Unauthorized access or use of Touchpoints (e.g. use for criminal purposes or to cause damage) is against the law, and may subject individuals to criminal prosecution and penalties.
 
@@ -243,11 +244,11 @@ permalink: /terms/
         <i>Set-up</i>
       </p>
 
-     * Touchpoints generates a public survey URL that customers can access (e.g, via an agency’s email servers or social media accounts), on a kiosk (via agency-owned hardware such as tablets, phones, or computers available at service centers) or embedded in a website online. 
+     * Touchpoints generates a public survey URL that customers can access (e.g, via an agency’s email servers or social media accounts), on a kiosk (via agency-owned hardware such as tablets, phones, or computers available at service centers) or embedded in a website online.
       * In 2023, the  A-11 survey was updated as a simplified, more user-friendly revision to the original A-11 survey. The second version of the A-11 survey presents 3 questions to the user;
           1. A thumps up/down button with the statement that states "Based on my experience [interacting with HISP Service], I trust [HISP] to deliver on their mission for the American public
           2. A multiple choice question that asks “ What about this interaction made the difference”.
-          3. Open-ended question with the statement below that states “Anything else you want us to know about your experience?” 
+          3. Open-ended question with the statement below that states “Anything else you want us to know about your experience?”
     * A-11 surveys administered in Touchpoints are limited to
         - No more than 20  survey questions in total per survey.
         - "Custom Questions" must be limited to questions that would be considered a non-substantive, non-sensitive question related to operational information that helps to put the customer feedback into a useable context for the agency. This could include asking which service center location was visited, or which service or inquiry type the interaction was related to. The Feedback Analytics team reserves the right to deem whether a question is appropriate under the PRA clearance that GSA operates for this tool.
