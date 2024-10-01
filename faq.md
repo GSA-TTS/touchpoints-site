@@ -6,7 +6,7 @@ permalink: /faq/
 
 <div class="grid-container usa-prose">
   <div class="grid-row grid-gap-md">
-    <div class="grid-col-3">
+    <div class="tablet:grid-col-3">
       <ul>
         <li>
           <a href="#touchpoints">Touchpoints</a>
@@ -16,7 +16,7 @@ permalink: /faq/
         </li>
       </ul>
     </div>
-    <div class="grid-col-9">
+    <div class="tablet:grid-col-9">
       <h1 id="frequently-asked-questions">Frequently Asked Questions</h1>
 
       <p><a name="touchpoints"></a></p>
@@ -46,8 +46,8 @@ permalink: /faq/
       <p>
         <a href="mailto:feedback-analytics@gsa.gov">Contact</a>
         the
-        <a href="https://feedback.usa.gov/" target="_blank" rel="noopener">Feedback Analytics</a>
-        team to setup a Demo today.
+        <a href="https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services/tts-solutions" target="_blank" rel="noopener">Touchpoints</a>
+        product team to setup a Demo today.
       </p>
 
       <h3 id="how-does-the-public-submit-feedback">How does the public submit feedback?</h3>
@@ -74,7 +74,7 @@ permalink: /faq/
 
       <h3 id="are-members-of-the-public-required-to-provide-feedback">Are members of the public required to provide feedback?</h3>
 
-      <p>Submitting feedback is purely optional.</p>
+      <p>No. Submitting feedback is purely optional.</p>
 
       <h3 id="how-will-the-feedback-collected-be-used">How will the feedback collected be used?</h3>
 
@@ -90,7 +90,7 @@ permalink: /faq/
       </p>
       <p>
         Under guidance from
-        [2018 A-11 Circular](https://www.performance.gov/cx/assets/files/a11-280.pdf),
+        <a href="https://www.whitehouse.gov/wp-content/uploads/2018/06/s280.pdf" target="_blank" rel="noopener">OMB A-11 Circular, Section 280</a>,
         High Impact Service Providers (HISPs) participating in the Customer Experience Cross Agency Priority Goal, part of the President’s Management Agenda,
         anonymous customer experience scores may be
         aggregated at the service level and published at
@@ -102,14 +102,6 @@ permalink: /faq/
         <a href="{{ site.baseurl }}/terms/">Terms of Service</a>
         for more information.
       </p>
-
-      <h3 id="is-the-feedback-anonymous">Is the feedback anonymous?</h3>
-
-      <p>Touchpoints forms that do not ask for any Personally Identifiable Information (PII) cannot be used to identify an individual.</p>
-
-      <h3 id="are-members-of-the-public-required-to-provide-feedback">Are members of the public required to provide feedback?</h3>
-
-      <p>No. Submitting feedback is optional.</p>
 
       <h3 id="what-languages-are-available-for-the-public-to-submit-feedback">What languages are available for the public to submit feedback?
       </h3>

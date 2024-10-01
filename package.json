@@ -15,16 +15,14 @@
     "uswds-copy-js": "gulp copyJS",
     "uswds-copy-theme": "gulp copyTheme",
     "uswds-update": "npm update uswds",
-    "watch": "gulp watch",
-    "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
+    "watch": "gulp watch"
   },
   "dependencies": {
-    "snyk": "^1.833.0",
-    "uswds": "^2.12.1"
+    "snyk": "^1.1293.1",
+    "uswds": "^2.14.0"
   },
   "snyk": true,
   "devDependencies": {
-    "@uswds/compile": "^1.0.0-alpha.0"
+    "@uswds/compile": "^1.2.0"
   }
 }

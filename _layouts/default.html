@@ -23,5 +23,72 @@
   src="{{ site.baseurl }}/assets/js/jquery-3.6.0.min.js"
   ></script>
   <script src="{{ "/assets/uswds/js/uswds.min.js" | relative_url }}"></script>
+
+  <script>
+    document.addEventListener('onTouchpointsFormLoaded', function() {
+      dataLayer.push({
+        'event': 'dap_event',
+        'eventCategory': 'touchpoints',
+        'eventAction': 'onTouchpointsFormLoaded'
+      });
+    });
+
+    document.addEventListener('onTouchpointsModalOpen', function() {
+      dataLayer.push({
+        'event': 'dap_event',
+        'eventCategory': 'touchpoints',
+        'eventAction': 'onTouchpointsModalOpen'
+      });
+    });
+
+    document.addEventListener('onTouchpointsModalClose', function() {
+      dataLayer.push({
+        'event': 'dap_event',
+        'eventCategory': 'touchpoints',
+        'eventAction': 'onTouchpointsModalClose'
+      });
+    });
+
+    document.addEventListener('onTouchpointsFormSubmission', function() {
+      dataLayer.push({
+        'event': 'dap_event',
+        'eventCategory': 'touchpoints',
+        'eventAction': 'onTouchpointsFormSubmission'
+      });
+    });
+
+    document.addEventListener('onTouchpointsFormSubmissionSuccess', function() {
+      dataLayer.push({
+        'event': 'dap_event',
+        'eventCategory': 'touchpoints',
+        'eventAction': 'onTouchpointsFormSubmissionSuccess'
+      });
+    });
+
+    document.addEventListener('onTouchpointsFormSubmissionError', function() {
+      dataLayer.push({
+        'event': 'dap_event',
+        'eventCategory': 'touchpoints',
+        'eventAction': 'onTouchpointsFormSubmissionError'
+      });
+    });
+
+    document.addEventListener('onTouchpointsFormNextPage', function() {
+      dataLayer.push({
+        'event': 'dap_event',
+        'eventCategory': 'touchpoints',
+        'eventAction': 'onTouchpointsFormNextPage'
+      });
+    });
+
+    document.addEventListener('onTouchpointsFormPreviousPage', function() {
+      dataLayer.push({
+        'event': 'dap_event',
+        'eventCategory': 'touchpoints',
+        'eventAction': 'onTouchpointsFormPreviousPage'
+      });
+    });
+
+  </script>
 </body>
 </html>
