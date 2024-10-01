@@ -18,11 +18,11 @@
     "watch": "gulp watch"
   },
   "dependencies": {
-    "snyk": "^1.1292.1",
+    "snyk": "^1.1293.1",
     "uswds": "^2.14.0"
   },
   "snyk": true,
   "devDependencies": {
-    "@uswds/compile": "^1.1.0"
+    "@uswds/compile": "^1.2.0"
   }
 }
