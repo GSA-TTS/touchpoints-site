@@ -9,16 +9,17 @@ title: Touchpoints
       <div class="tablet:grid-col-6" style="align-items: center; display: flex; justify-content: center;">
         <img src="{{ site.baseurl }}/assets/img/touchpoints-screenshot.jpg" alt="Touchpoints Screenshot" style="margin: 10px 0;">
       </div>
-      <div class="tablet:grid-col-6" style="color: white;">
-        <div class="usa-intro" style="font-size: 2em; margin-top: 18px;">
+      <div class="tablet:grid-col-6 text-white">
+        <h1 class="usa-intro font-serif-xl">
           Making customer feedback easier for federal agencies.
-        </div>
+        </h1>
         <p style="font-size: 1.125em;">
           Touchpoints offers a simple,
           flexible, and convenient way to start collecting customer feedback
           so you can focus on serving your customers rather than managing surveys.
         </p>
         <p style="margin-bottom: 20px;">
+          <a href="{{ site.baseurl }}/assets/files/GSA-Touchpoints-Product-Overview.pdf" class="usa-button usa-button--outline usa-button--inverse" target="_blank" rel="noopener">Download Slides</a>
           <a href="https://touchpoints.app.cloud.gov/users/sign_in" class="usa-button" target="_blank" rel="noopener">Get started</a>
         </p>
       </div>
@@ -105,7 +106,8 @@ title: Touchpoints
             </p>
           </div>
         </div>
-        <br>
+
+        {% include customers.html %}
       </div>
     </div>
   </div>
