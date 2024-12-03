@@ -106,7 +106,8 @@ title: Touchpoints
             </p>
           </div>
         </div>
-        <br>
+
+        {% include customers.html %}
       </div>
     </div>
   </div>
