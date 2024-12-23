@@ -113,4 +113,6 @@ title: Touchpoints
   </div>
 </main>
 
-<script src="https://touchpoints.app.cloud.gov/touchpoints/92b47c29/js" async></script>
+<script src="https://touchpoints.app.cloud.gov/touchpoints/92b47c29.js" async
+crossorigin="anonymous"
+integrity="sha256-dVZSYTH5XVW7v7zOhS0guK9hvZje78uLbt0dwLA/W5g"></script>
