@@ -11,7 +11,7 @@
 </footer>
 <script src="https://touchpoints.app.cloud.gov/touchpoints/0efb2db6.js" async
   crossorigin="anonymous"
-  integrity="sha256-r5PfzlUQxWXkA45DY5kQf3iYdYaJveSYFr+vbj/ADu8="></script>
+  integrity="sha256-9WACMs7mcM2ktSv8RVUU0QJ6Z5kBGXQCsiCIeBSc3cQ="></script>
 
 <script>
   function setTouchpointsListeners() {
@@ -40,8 +40,8 @@
     // load for a specific form
     if (e.detail && e.detail.formComponent.formComponent().getAttribute("data-touchpoints-form-id") === '0efb2db6' ) {
       console.log("onTouchpointsFormLoaded")
-      const yesButton = e.detail.formComponent.formComponent().querySelector('input.usa-button[value="yes"]');
-      const noButton = e.detail.formComponent.formComponent().querySelector('input.usa-button[value="no"]');
+      const yesButton = e.detail.formComponent.formComponent().querySelector('.submit-button .usa-button[value="1"]');
+      const noButton = e.detail.formComponent.formComponent().querySelector('.submit-button .usa-button[value="0"]');
 
       yesButton.addEventListener('click', (event) => {
          event.preventDefault();
