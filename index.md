@@ -115,4 +115,4 @@ title: Touchpoints
 
 <script src="https://touchpoints.app.cloud.gov/touchpoints/92b47c29.js" async
 crossorigin="anonymous"
-integrity="sha256-gdLewGjV+C0ANrf8rXrMR91nN//Z4bic8QFffoV9sj4="></script>
+integrity="sha256-G273GOrKKbCcfS23rgV8dS1sJ/BXMGJZSMkF6mW2PMY="></script>
